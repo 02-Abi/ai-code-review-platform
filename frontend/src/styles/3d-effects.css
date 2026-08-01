@@ -1,0 +1,237 @@
+/* ============================================
+   3D UI EFFECTS FOR ALL PAGES
+   ============================================ */
+
+/* ---------- 3D Card Effect ---------- */
+.card-3d {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.card-3d:hover {
+    transform: translateY(-5px) rotateX(2deg) rotateY(2deg);
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-color: rgba(99, 102, 241, 0.3);
+}
+
+/* ---------- 3D Button Effect ---------- */
+.btn-3d {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 
+        0 8px 25px rgba(99, 102, 241, 0.3),
+        inset 0 2px 0 rgba(255, 255, 255, 0.2);
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+}
+
+.btn-3d:hover {
+    transform: perspective(500px) rotateX(2deg) rotateY(2deg) translateY(-3px);
+    box-shadow: 
+        0 15px 40px rgba(99, 102, 241, 0.4),
+        inset 0 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-3d:active {
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg) scale(0.95);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.2);
+}
+
+/* ---------- 3D Input Fields ---------- */
+.input-3d {
+    width: 100%;
+    padding: 14px 20px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.input-3d:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 
+        0 0 0 4px rgba(99, 102, 241, 0.2),
+        inset 0 0 20px rgba(99, 102, 241, 0.05);
+    transform: scale(1.02);
+}
+
+.input-3d::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* ---------- 3D Badge ---------- */
+.badge-3d {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    transition: all 0.3s ease;
+}
+
+.badge-3d:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(99, 102, 241, 0.4);
+}
+
+/* ---------- 3D Stats Card ---------- */
+.stats-card-3d {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.05));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.stats-card-3d:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.2);
+}
+
+.stats-number-3d {
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ---------- 3D Glass Effect ---------- */
+.glass-3d {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* ---------- 3D Gradient Text ---------- */
+.text-gradient-3d {
+    background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    text-shadow: 0 0 40px rgba(99, 102, 241, 0.2);
+}
+
+/* ---------- 3D Table ---------- */
+.table-3d {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.table-3d th {
+    background: rgba(99, 102, 241, 0.2);
+    color: white;
+    padding: 16px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.table-3d td {
+    padding: 14px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.table-3d tr:hover td {
+    background: rgba(99, 102, 241, 0.05);
+    color: white;
+}
+
+/* ---------- 3D Code Block ---------- */
+.code-block-3d {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(5px);
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #e4e4e4;
+    overflow-x: auto;
+    box-shadow: 
+        inset 0 0 30px rgba(0, 0, 0, 0.3),
+        0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- 3D Loading Spinner ---------- */
+.spinner-3d {
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(99, 102, 241, 0.1);
+    border-top: 3px solid #6366f1;
+    border-radius: 50%;
+    animation: spin3d 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.2);
+}
+
+@keyframes spin3d {
+    0% {
+        transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100% {
+        transform: perspective(500px) rotateX(360deg) rotateY(180deg) rotateZ(360deg);
+    }
+}
+
+/* ---------- 3D Progress Bar ---------- */
+.progress-3d {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .card-3d {
+        padding: 20px;
+    }
+    
+    .stats-number-3d {
+        font-size: 28px;
+    }
+}
