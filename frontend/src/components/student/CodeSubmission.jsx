@@ -33,9 +33,10 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import LanguageIcon from '@mui/icons-material/Language';
 import DescriptionIcon from '@mui/icons-material/Description';
 import WarningIcon from '@mui/icons-material/Warning';
-import InfoIcon from '@mui/icons-material/Info';
 import ErrorIcon from '@mui/icons-material/Error';
+import PsychologyIcon from '@mui/icons-material/Psychology';
 
+// ACE Editor Modes
 import 'ace-builds/src-noconflict/mode-python';
 import 'ace-builds/src-noconflict/mode-javascript';
 import 'ace-builds/src-noconflict/mode-typescript';
@@ -121,110 +122,6 @@ const languageEmojis = {
   'Julia': '🔢',
 };
 
-// Language patterns - ONLY used when manually triggering detection
-const languagePatterns = {
-  'Haskell': {
-    patterns: ['module ', 'where', '::', '->', 'data ', 'class ', 'instance', 'deriving', 'do ', '<-', 'putStrLn'],
-    keywords: ['haskell', 'hs'],
-  },
-  'JavaScript': {
-    patterns: ['function ', 'const ', 'let ', 'var ', 'console.log', '=>', 'export ', 'import {'],
-    keywords: ['javascript', 'js'],
-  },
-  'TypeScript': {
-    patterns: [': string', ': number', ': boolean', 'interface ', 'type ', 'export interface', 'enum ', 'implements'],
-    keywords: ['typescript', 'ts'],
-  },
-  'Java': {
-    patterns: ['public class', 'private ', 'protected ', 'public static void', 'System.out.println', 'import java.', '@Override'],
-    keywords: ['java'],
-  },
-  'C': {
-    patterns: ['#include', 'int main(', 'printf(', 'scanf(', 'malloc(', 'free(', 'char*'],
-    keywords: ['c'],
-  },
-  'C++': {
-    patterns: ['#include', 'std::', 'cout', 'cin', 'class ', 'public:', 'private:', 'virtual ', 'template'],
-    keywords: ['cpp', 'c++'],
-  },
-  'C#': {
-    patterns: ['using System', 'namespace ', 'public class', 'private ', 'Console.WriteLine', 'get; set;'],
-    keywords: ['csharp', 'c#'],
-  },
-  'Go': {
-    patterns: ['package ', 'func ', 'import ', 'fmt.Println', 'go ', 'chan ', 'func main()'],
-    keywords: ['golang', 'go'],
-  },
-  'Rust': {
-    patterns: ['fn ', 'let mut', 'println!', 'match ', 'impl ', 'pub fn', 'fn main()', 'mod ', 'unsafe'],
-    keywords: ['rust', 'rs'],
-  },
-  'Ruby': {
-    patterns: ['def ', 'end', 'attr_accessor', 'puts ', 'class ', 'require ', 'module ', 'include '],
-    keywords: ['ruby', 'rb'],
-  },
-  'PHP': {
-    patterns: ['<?php', 'echo ', 'function ', 'public function', 'private function', '$_GET', '$_POST', '->'],
-    keywords: ['php'],
-  },
-  'Python': {
-    patterns: ['def ', 'import ', 'from ', 'class ', 'print(', 'if __name__', 'self.', 'self,'],
-    keywords: ['python', 'py'],
-  },
-  'Julia': {
-    patterns: ['function ', 'end', '::', 'println(', 'using ', 'import ', 'Dict{', 'Array{', 'Vector{'],
-    keywords: ['julia', 'jl'],
-  },
-  'Swift': {
-    patterns: ['import UIKit', 'import Foundation', 'func ', 'var ', 'let ', 'class ', 'override', 'init('],
-    keywords: ['swift'],
-  },
-  'Kotlin': {
-    patterns: ['fun ', 'var ', 'val ', 'class ', 'data class', 'suspend', 'companion object'],
-    keywords: ['kotlin', 'kt'],
-  },
-  'HTML': {
-    patterns: ['<!DOCTYPE html>', '<html>', '<body>', '<div>', '<span>', '<p>', '<head>', '<title>'],
-    keywords: ['html'],
-  },
-  'CSS': {
-    patterns: ['{', '}', 'color:', 'margin:', 'padding:', 'font-size:', 'border:', '@media', '@keyframes'],
-    keywords: ['css'],
-  },
-  'SQL': {
-    patterns: ['SELECT ', 'INSERT ', 'UPDATE ', 'DELETE ', 'CREATE ', 'DROP ', 'ALTER ', 'FROM ', 'WHERE ', 'JOIN '],
-    keywords: ['sql'],
-  },
-  'R': {
-    patterns: ['<-', 'function(', 'library(', 'data.frame', 'ggplot', 'c(', 'list('],
-    keywords: ['r'],
-  },
-  'Scala': {
-    patterns: ['def ', 'val ', 'var ', 'object ', 'trait ', 'case class', 'extends', 'implicit'],
-    keywords: ['scala'],
-  },
-  'Perl': {
-    patterns: ['my ', 'sub ', 'use strict', 'use warnings', '$', '@', '%', 'print '],
-    keywords: ['perl', 'pl'],
-  },
-  'Shell': {
-    patterns: ['#!/bin/', 'echo ', 'export ', 'if [', 'for ', 'then', 'fi', 'done'],
-    keywords: ['shell', 'bash', 'sh'],
-  },
-  'Dart': {
-    patterns: ['void main()', 'import ', 'class ', 'extends ', 'Widget', 'StatefulWidget', 'async'],
-    keywords: ['dart'],
-  },
-  'Elixir': {
-    patterns: ['defmodule', 'def ', 'defp ', 'do', 'end', 'alias ', 'import ', '|>', '->'],
-    keywords: ['elixir', 'ex'],
-  },
-  'Lua': {
-    patterns: ['function ', 'local ', 'end', 'table.', 'pairs', 'require ', 'print('],
-    keywords: ['lua'],
-  },
-};
-
 const CodeSubmission = () => {
   const navigate = useNavigate();
   const [languages, setLanguages] = useState([]);
@@ -236,6 +133,7 @@ const CodeSubmission = () => {
     file: null,
   });
   const [loading, setLoading] = useState(false);
+  const [detecting, setDetecting] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
@@ -246,19 +144,20 @@ const CodeSubmission = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
   const [detectedLanguage, setDetectedLanguage] = useState(null);
   const [languageMismatch, setLanguageMismatch] = useState(false);
+  const [detectionMethod, setDetectionMethod] = useState(null);
+  const [detectionConfidence, setDetectionConfidence] = useState(0);
 
   useEffect(() => {
     fetchLanguages();
   }, []);
 
   // ==============================================================
-  // FIX: Only update char/line count, NO AUTO-DETECTION!
+  // Only update char/line count
   // ==============================================================
   useEffect(() => {
     if (formData.code) {
       setCharCount(formData.code.length);
       setLineCount(formData.code.split('\n').length);
-      // DISABLED: detectCodeLanguage(formData.code);  // ← COMMENTED OUT!
     } else {
       setCharCount(0);
       setLineCount(0);
@@ -266,7 +165,7 @@ const CodeSubmission = () => {
   }, [formData.code]);
 
   // ==============================================================
-  // FIX: Only check mismatch when language is selected
+  // Only check mismatch when language is selected
   // ==============================================================
   useEffect(() => {
     if (detectedLanguage && selectedLanguage) {
@@ -278,68 +177,61 @@ const CodeSubmission = () => {
   }, [detectedLanguage, selectedLanguage]);
 
   // ==============================================================
-  // DETECT LANGUAGE - ONLY CALLED MANUALLY
+  // DETECT LANGUAGE USING LLM (DYNAMIC) - FIXED
   // ==============================================================
-  const detectCodeLanguage = (code) => {
+  const detectCodeLanguage = async () => {
+    const code = formData.code;
+    
     if (!code || code.trim() === '') {
       setDetectedLanguage(null);
       toast.info('Please paste some code first');
       return;
     }
 
-    let bestMatch = null;
-    let maxScore = 0;
-
-    for (const [lang, config] of Object.entries(languagePatterns)) {
-      let score = 0;
-      const codeLower = code.toLowerCase();
-      const lines = code.split('\n');
-
-      for (const pattern of config.patterns) {
-        if (code.includes(pattern)) {
-          score += 2;
+    setDetecting(true);
+    toast.info('🤖 Analyzing code with AI...');
+    
+    try {
+      // FIXED: Use the correct API method
+      const response = await codeReviewAPI.detectLanguage({ code });
+      
+      console.log('🔍 LLM Detection Response:', response.data);
+      
+      const detected = response.data.language;
+      const confidence = response.data.confidence || 95;
+      const method = response.data.method || 'llm';
+      
+      if (detected) {
+        setDetectedLanguage(detected);
+        setDetectionMethod(method);
+        setDetectionConfidence(confidence);
+        
+        // Show detection method
+        const methodLabel = method === 'llm' ? 'AI' : 'Static';
+        toast.success(`✅ Detected: ${detected} (${confidence}% confidence via ${methodLabel})`);
+        
+        // Auto-select the language if available
+        const langMatch = languages.find(l => l.name === detected);
+        if (langMatch) {
+          setSelectedLanguage(langMatch);
+          setFormData(prev => ({ ...prev, language: langMatch.id }));
+          setLanguageMismatch(false);
         }
+      } else {
+        setDetectedLanguage(null);
+        toast.warning('Could not detect language. Please select manually.');
       }
-
-      for (const keyword of config.keywords) {
-        if (codeLower.includes(keyword)) {
-          score += 1;
-        }
-      }
-
-      for (const line of lines) {
-        const trimmed = line.trim();
-        if (trimmed) {
-          if (trimmed.startsWith('#!')) {
-            if (trimmed.includes('python')) score += 3;
-            if (trimmed.includes('node')) score += 3;
-            if (trimmed.includes('ruby')) score += 3;
-            if (trimmed.includes('perl')) score += 3;
-            if (trimmed.includes('bash')) score += 3;
-            if (trimmed.includes('sh')) score += 3;
-            if (trimmed.includes('runhaskell')) score += 5;
-          }
-          break;
-        }
-      }
-
-      if (score > maxScore) {
-        maxScore = score;
-        bestMatch = lang;
-      }
-    }
-
-    if (maxScore >= 3 && bestMatch) {
-      setDetectedLanguage(bestMatch);
-      toast.success(`✅ Detected: ${bestMatch}`);
-    } else {
-      setDetectedLanguage(null);
-      toast.warning('Could not detect language. Please select manually.');
+    } catch (error) {
+      console.error('❌ Language Detection Failed:', error);
+      console.error('Error details:', error.response?.data);
+      toast.error('Language detection failed. Please select manually.');
+    } finally {
+      setDetecting(false);
     }
   };
 
   // ==============================================================
-  // HANDLE LANGUAGE SELECTION - Auto-detect when selected
+  // HANDLE LANGUAGE SELECTION
   // ==============================================================
   const handleLanguageChange = (e) => {
     const value = e.target.value;
@@ -350,7 +242,6 @@ const CodeSubmission = () => {
       language: value,
     });
     
-    // Check if selected language matches detected language
     if (detectedLanguage && lang) {
       const isMatch = detectedLanguage === lang.name;
       setLanguageMismatch(!isMatch);
@@ -364,25 +255,15 @@ const CodeSubmission = () => {
     toast.info(`Switched to ${lang?.name || 'language'}`);
   };
 
-  // ==============================================================
-  // HANDLE DETECT BUTTON CLICK
-  // ==============================================================
-  const handleDetectLanguage = () => {
-    if (!formData.code) {
-      toast.error('Please paste some code first');
-      return;
-    }
-    detectCodeLanguage(formData.code);
-  };
-
   const handleCodeChange = (newCode) => {
     setFormData({
       ...formData,
       code: newCode,
     });
-    // Clear detection when code changes
     setDetectedLanguage(null);
     setLanguageMismatch(false);
+    setDetectionMethod(null);
+    setDetectionConfidence(0);
   };
 
   const handleFileChange = (e) => {
@@ -398,6 +279,8 @@ const CodeSubmission = () => {
         });
         setDetectedLanguage(null);
         setLanguageMismatch(false);
+        setDetectionMethod(null);
+        setDetectionConfidence(0);
         toast.success(`✅ File ${file.name} loaded successfully!`);
       };
       reader.readAsText(file);
@@ -510,6 +393,7 @@ const CodeSubmission = () => {
       
       try {
         console.log('🤖 Initiating AI review for submission:', submissionId);
+        // FIXED: The URL is 'initiate/' not 'initiate-review/'
         const reviewResponse = await codeReviewAPI.initiateReview(submissionId);
         console.log('✅ Review response:', reviewResponse.data);
         toast.success('🤖 AI review completed successfully!');
@@ -772,6 +656,18 @@ const CodeSubmission = () => {
                             {lang ? lang.name.charAt(0) : '?'}
                           </Avatar>
                           <span style={{ color: '#fff' }}>{lang?.name}</span>
+                          {detectedLanguage && lang?.name === detectedLanguage && (
+                            <Chip
+                              label="✅ Detected"
+                              size="small"
+                              sx={{ 
+                                backgroundColor: 'rgba(76,175,80,0.2)',
+                                color: '#4caf50',
+                                fontSize: '0.6rem',
+                                height: '18px',
+                              }}
+                            />
+                          )}
                           <Chip
                             label="AI Supported"
                             size="small"
@@ -846,7 +742,7 @@ const CodeSubmission = () => {
               </Grid>
             </Grid>
 
-            {/* Language Detection Info - Only show when detected */}
+            {/* Language Detection Info */}
             {detectedLanguage && (
               <Fade in={true}>
                 <Box sx={{ 
@@ -884,6 +780,20 @@ const CodeSubmission = () => {
                       }}>
                         {detectedLanguage}
                       </Typography>
+                      {detectionMethod && (
+                        <Chip
+                          icon={<PsychologyIcon />}
+                          label={`${detectionMethod === 'llm' ? 'AI' : 'Static'} Detection - ${detectionConfidence}% confidence`}
+                          size="small"
+                          sx={{ 
+                            mt: 0.5,
+                            fontSize: '0.6rem',
+                            height: '20px',
+                            backgroundColor: detectionMethod === 'llm' ? 'rgba(100,255,218,0.2)' : 'rgba(255,255,255,0.1)',
+                            color: detectionMethod === 'llm' ? '#64ffda' : 'rgba(255,255,255,0.7)',
+                          }}
+                        />
+                      )}
                     </Box>
                   </Box>
                   <Box sx={{ display: 'flex', gap: 1 }}>
@@ -928,25 +838,29 @@ const CodeSubmission = () => {
             )}
 
             {/* Detect Language Button */}
-            <Box sx={{ mt: 2, display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+            <Box sx={{ mt: 2, display: 'flex', gap: 2, flexWrap: 'wrap', alignItems: 'center' }}>
               <Button
-                variant="outlined"
-                onClick={handleDetectLanguage}
-                startIcon={<AutoAwesomeIcon />}
+                variant="contained"
+                onClick={detectCodeLanguage}
+                disabled={detecting || !formData.code}
+                startIcon={detecting ? <LinearProgress sx={{ width: 20 }} /> : <PsychologyIcon />}
                 sx={{
-                  borderColor: '#64ffda',
-                  color: '#64ffda',
+                  background: 'linear-gradient(45deg, #64ffda, #00b4d8)',
+                  color: '#000',
+                  fontWeight: 'bold',
                   '&:hover': {
-                    borderColor: '#00b4d8',
-                    color: '#00b4d8',
-                    backgroundColor: 'rgba(100,255,218,0.05)',
+                    background: 'linear-gradient(45deg, #00b4d8, #64ffda)',
+                  },
+                  '&:disabled': {
+                    background: 'rgba(100,255,218,0.2)',
+                    color: 'rgba(255,255,255,0.3)',
                   },
                 }}
               >
-                🔍 Detect Language
+                {detecting ? 'Analyzing with AI...' : '🔍 Detect Language (AI)'}
               </Button>
               <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.5)', alignSelf: 'center' }}>
-                Click to detect language from your code
+                🤖 Uses OpenAI to intelligently detect the programming language
               </Typography>
             </Box>
 
@@ -1003,10 +917,22 @@ const CodeSubmission = () => {
                       variant="outlined"
                     />
                   )}
+                  {detectionMethod === 'llm' && (
+                    <Chip
+                      icon={<PsychologyIcon />}
+                      label="AI Detected"
+                      size="small"
+                      sx={{ 
+                        color: '#64ffda',
+                        backgroundColor: 'rgba(100,255,218,0.1)',
+                      }}
+                    />
+                  )}
                 </Box>
               </Fade>
             )}
 
+            {/* Code Editor */}
             <Box sx={{ mt: 3 }}>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1 }}>
                 <Typography variant="subtitle2" sx={{ color: 'rgba(255,255,255,0.7)' }}>
@@ -1029,9 +955,6 @@ const CodeSubmission = () => {
                 name="code_editor"
                 value={formData.code}
                 editorProps={{ $blockScrolling: true }}
-                enableBasicAutocompletion={true}
-                enableLiveAutocompletion={true}
-                enableSnippets={true}
                 setOptions={{
                   showLineNumbers: true,
                   tabSize: 4,
@@ -1042,11 +965,6 @@ const CodeSubmission = () => {
                   highlightActiveLine: true,
                   displayIndentGuides: true,
                   wrap: true,
-                }}
-                onLoad={(editor) => {
-                  editor.setOption('enableBasicAutocompletion', true);
-                  editor.setOption('enableLiveAutocompletion', true);
-                  editor.setOption('enableSnippets', true);
                 }}
                 width="100%"
                 height="450px"

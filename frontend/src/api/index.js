@@ -1,6 +1,7 @@
+// src/api/index.js
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
 
 // Create axios instance
 const api = axios.create({
@@ -11,7 +12,7 @@ const api = axios.create({
   withCredentials: true,
 });
 
-// Request interceptor to add token - FIXED
+// Request interceptor to add token
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('accessToken');
@@ -21,7 +22,7 @@ api.interceptors.request.use(
       config.headers.Authorization = `Bearer ${token}`;
       console.log('🔑 Token added to request');
     } else {
-      console.warn('❌ No token found for request:', config.url);
+      console.log('❌ No token found for request:', config.url);
     }
     return config;
   },
@@ -53,7 +54,7 @@ api.interceptors.response.use(
           console.log('🔄 Refresh Token:', refreshToken ? 'Exists' : 'Not found');
           
           if (refreshToken) {
-            const response = await axios.post(`${API_URL}/token/refresh/`, {
+            const response = await axios.post(`${API_URL}/accounts/refresh/`, {
               refresh: refreshToken,
             });
             
@@ -65,18 +66,16 @@ api.interceptors.response.use(
             originalRequest.headers.Authorization = `Bearer ${access}`;
             return api(originalRequest);
           } else {
-            console.warn('❌ No refresh token available - Redirecting to login');
+            console.warn('❌ No refresh token available');
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
             localStorage.removeItem('user');
-            // Don't redirect immediately, let the component handle it
           }
         } catch (refreshError) {
           console.error('❌ Token refresh failed:', refreshError);
           localStorage.removeItem('accessToken');
           localStorage.removeItem('refreshToken');
           localStorage.removeItem('user');
-          // Don't redirect immediately, let the component handle it
         }
       }
     }
@@ -85,7 +84,9 @@ api.interceptors.response.use(
   }
 );
 
-// Auth APIs
+// ============================================================
+// AUTH API - EXPORTED
+// ============================================================
 export const authAPI = {
   register: (data) => api.post('/accounts/register/', data),
   login: (data) => api.post('/accounts/login/', data),
@@ -99,9 +100,12 @@ export const authAPI = {
   getStats: () => api.get('/accounts/statistics/'),
 };
 
-// Code Review APIs
+// ============================================================
+// CODE REVIEW API - EXPORTED
+// ============================================================
 export const codeReviewAPI = {
   getLanguages: () => api.get('/code-review/languages/'),
+  getLanguagesSupport: () => api.get('/code-review/languages-support/'),
   getSubmissions: () => {
     console.log('📋 API: Getting submissions...');
     return api.get('/code-review/submissions/');
@@ -127,16 +131,26 @@ export const codeReviewAPI = {
       console.error('No submission ID provided!');
       return Promise.reject(new Error('No submission ID provided'));
     }
-    return api.post('/code-review/initiate-review/', { 
+    return api.post('/code-review/initiate/', { 
       submission_id: submissionId 
     });
   },
+  detectLanguage: (code) => {
+    console.log('🔍 API: Detecting language...');
+    return api.post('/code-review/detect-language/', { code });
+  },
+  getLLMStatus: () => api.get('/code-review/llm-status/'),
 };
 
-// Dashboard APIs
+// ============================================================
+// DASHBOARD API - EXPORTED
+// ============================================================
 export const dashboardAPI = {
   getAdminStats: () => api.get('/dashboard/admin/'),
   getStudentStats: () => api.get('/dashboard/student/'),
 };
 
+// ============================================================
+// DEFAULT EXPORT
+// ============================================================
 export default api;

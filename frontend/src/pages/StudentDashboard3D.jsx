@@ -107,9 +107,15 @@ const StudentDashboard3D = () => {
     toast.success('Dashboard refreshed!');
   };
 
+  // ✅ FIXED: Changed from '/submission/' to '/review/'
   const handleViewSubmission = (id) => {
-    if (!id) return;
-    navigate(`/submission/${id}`);
+    if (!id) {
+      console.error('No submission ID provided');
+      toast.error('Invalid submission');
+      return;
+    }
+    console.log('🔍 Navigating to submission:', id);
+    navigate(`/review/${id}`);
   };
 
   const handleDeleteSubmission = async (id, title) => {
@@ -120,16 +126,13 @@ const StudentDashboard3D = () => {
         await codeReviewAPI.deleteSubmission(id);
         toast.success('✅ Submission deleted successfully!');
         
-        // Remove from recent submissions list immediately
         setRecentSubmissions(prev => prev.filter(sub => sub.id !== id));
         
-        // Refresh stats
         const statsResponse = await codeReviewAPI.getStats();
         if (statsResponse.data && statsResponse.data.data) {
           setStats(statsResponse.data.data);
         }
         
-        // Refresh the dashboard data
         await fetchDashboardData();
         
       } catch (error) {

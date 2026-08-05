@@ -1,3 +1,4 @@
+# accounts/serializers.py
 from rest_framework import serializers
 from django.contrib.auth import authenticate
 from django.contrib.auth.password_validation import validate_password
@@ -39,11 +40,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
             'company_name', 'job_title', 'years_of_experience', 'skills',
             'user_type'
         )
-    def create(self, validated_data):
-        validated_data.pop('confirm_password')
-        user = User.objects.create_user(**validated_data)
-        return user
-        
+    
     def validate(self, data):
         # Check if passwords match
         if data['password'] != data['confirm_password']:
@@ -78,28 +75,35 @@ class UserLoginSerializer(serializers.Serializer):
         username = data.get('username')
         password = data.get('password')
         
+        print(f"🔐 Validating login for: {username}")
+        
         # Check if user exists
         try:
             user = User.objects.get(username=username)
+            print(f"✅ User found: {user.username}")
         except User.DoesNotExist:
-            raise serializers.ValidationError({
-                'username': 'Invalid username or password.'
-            })
+            print(f"❌ User not found: {username}")
+            raise serializers.ValidationError('Invalid username or password.')
         
-        # Authenticate user
-        user = authenticate(username=username, password=password)
-        if not user:
-            raise serializers.ValidationError({
-                'username': 'Invalid username or password.'
-            })
+        # Try authentication with the user object
+        if user.check_password(password):
+            print(f"✅ Password correct for: {user.username}")
+            data['user'] = user
+            return data
+        else:
+            print(f"❌ Password incorrect for: {user.username}")
+            raise serializers.ValidationError('Invalid username or password.')
         
-        if not user.is_active:
-            raise serializers.ValidationError({
-                'username': 'This account is deactivated.'
-            })
+        # Alternative: use authenticate
+        # user = authenticate(username=username, password=password)
+        # if not user:
+        #     raise serializers.ValidationError('Invalid username or password.')
         
-        data['user'] = user
-        return data
+        # if not user.is_active:
+        #     raise serializers.ValidationError('This account is deactivated.')
+        
+        # data['user'] = user
+        # return data
 
 class PasswordChangeSerializer(serializers.Serializer):
     old_password = serializers.CharField(required=True)

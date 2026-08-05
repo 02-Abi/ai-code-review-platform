@@ -14,7 +14,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-your-secret-key-here-change-in-production')
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-8x7y9z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
@@ -84,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('DB_NAME', 'ai_code_review_db'),
-        'USER': os.getenv('DB_USER', 'postgres'),
-        'PASSWORD': os.getenv('DB_PASSWORD', 'admin123'),
+        'USER': os.getenv('DB_USER', 'Abi'),
+        'PASSWORD': os.getenv('DB_PASSWORD', 'Abi17102004'),
         'HOST': os.getenv('DB_HOST', 'localhost'),
         'PORT': os.getenv('DB_PORT', '5433'),
         'OPTIONS': {
@@ -311,9 +311,9 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # AI Configuration
-AI_PROVIDER = os.getenv('AI_PROVIDER', 'openai')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
+AI_PROVIDER = os.getenv('AI_PROVIDER', 'gemini')  # Changed to 'gemini' as default
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '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')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AQ.Ab8RN6JgZAPeo2MiwXli4dLikND_weaCCfGX7ourtYF-zN7qsg')
 AI_MODEL = os.getenv('AI_MODEL', 'gpt-4-turbo-preview')
 AI_TEMPERATURE = float(os.getenv('AI_TEMPERATURE', 0.7))
 AI_MAX_TOKENS = int(os.getenv('AI_MAX_TOKENS', 2000))
@@ -326,3 +326,6 @@ GITHUB_REDIRECT_URI = os.getenv('GITHUB_REDIRECT_URI', '')
 # Report Settings
 REPORT_STORAGE_PATH = BASE_DIR / 'reports'
 os.makedirs(REPORT_STORAGE_PATH, exist_ok=True)
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AQ.Ab8RN6JgZAPeo2MiwXli4dLikND_weaCCfGX7ourtYF-zN7qsg')
+
+print(f"GEMINI_API_KEY loaded: {bool(GEMINI_API_KEY)}")

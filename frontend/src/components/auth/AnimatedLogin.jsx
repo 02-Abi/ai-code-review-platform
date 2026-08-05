@@ -47,8 +47,19 @@ const AnimatedLogin = () => {
       
       if (result.success) {
         toast.success('✅ Login successful! Welcome back!');
+        console.log('✅ User data:', result.user);
+        
+        // Get user_type with fallback
+        const userType = result.user?.user_type || 'student';
+        console.log('👤 User type:', userType);
+        
+        // Navigate based on user type
         setTimeout(() => {
-          navigate(result.user.user_type === 'admin' ? '/admin' : '/dashboard');
+          if (userType === 'admin') {
+            navigate('/admin', { replace: true });
+          } else {
+            navigate('/dashboard', { replace: true });
+          }
         }, 500);
       } else {
         setError(result.error || 'Login failed. Please check your credentials.');

@@ -231,6 +231,9 @@ const AnimatedRegister = () => {
     return Object.values(newErrors).every(error => error === '');
   };
 
+  // ============================================================
+  // FIXED: handleSubmit - Proper backend integration
+  // ============================================================
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
@@ -242,23 +245,24 @@ const AnimatedRegister = () => {
     setLoading(true);
     
     try {
+      // Format data for backend - BACKEND EXPECTS 'password2' NOT 'confirm_password'
       const registrationData = {
         username: formData.username,
         email: formData.email,
         password: formData.password,
-        confirm_password: formData.confirm_password,
+        password2: formData.confirm_password,  // FIXED: Use password2
         first_name: formData.first_name,
         last_name: formData.last_name,
         user_type: formData.user_type,
         ...(formData.user_type === 'student' && {
           college_name: formData.college_name,
-          year_of_study: parseInt(formData.year_of_study),
+          year_of_study: parseInt(formData.year_of_study) || 1,
           branch: formData.branch,
         }),
         ...(formData.user_type === 'professional' && {
           company_name: formData.company_name,
           job_title: formData.job_title,
-          years_of_experience: parseInt(formData.years_of_experience),
+          years_of_experience: parseInt(formData.years_of_experience) || 0,
           skills: formData.skills,
         }),
       };
@@ -268,17 +272,43 @@ const AnimatedRegister = () => {
       const result = await register(registrationData);
       console.log('Registration result:', result);
       
-      if (result.success) {
+      // FIXED: Check result.status === 'success' (not result.success)
+      if (result && result.status === 'success') {
         toast.success('✅ Registration successful! Please login to continue.');
         setTimeout(() => {
           navigate('/login');
         }, 2000);
       } else {
-        setError(result.error || 'Registration failed. Please try again.');
+        // FIXED: Better error handling
+        if (result && result.errors) {
+          const errorMessages = Object.values(result.errors).flat().join(', ');
+          setError(errorMessages || 'Registration failed. Please try again.');
+        } else {
+          setError(result?.message || 'Registration failed. Please try again.');
+        }
       }
     } catch (err) {
       console.error('Registration error:', err);
-      setError('An unexpected error occurred. Please try again.');
+      
+      // FIXED: Better error extraction from backend
+      if (err.response?.data?.errors) {
+        const backendErrors = err.response.data.errors;
+        const errorMessages = Object.values(backendErrors).flat().join(', ');
+        setError(errorMessages);
+        
+        // Also set field-specific errors
+        const fieldErrors = {};
+        Object.keys(backendErrors).forEach(key => {
+          fieldErrors[key] = backendErrors[key][0] || 'Invalid input';
+        });
+        setErrors(fieldErrors);
+      } else if (err.response?.data?.message) {
+        setError(err.response.data.message);
+      } else if (err.message === 'Network Error') {
+        setError('Server is not running. Please start the backend server.');
+      } else {
+        setError('An unexpected error occurred. Please try again.');
+      }
     } finally {
       setLoading(false);
     }

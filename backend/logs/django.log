@@ -5163,3 +5163,1606 @@ INFO 2026-08-01 14:32:10,488 basehttp 3440 6152 "OPTIONS /api/code-review/submis
 INFO 2026-08-01 14:32:10,490 basehttp 3440 12064 "OPTIONS /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 0
 INFO 2026-08-01 14:32:10,691 basehttp 3440 22240 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 8066
 INFO 2026-08-01 14:32:10,861 basehttp 3440 22240 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 8066
+INFO 2026-08-01 15:09:27,420 autoreload 3440 16008 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-01 15:09:29,545 autoreload 20476 19616 Watching for file changes with StatReloader
+INFO 2026-08-01 15:15:35,640 autoreload 20476 19616 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-01 15:15:36,884 autoreload 1848 14956 Watching for file changes with StatReloader
+INFO 2026-08-01 15:15:41,342 autoreload 1848 14956 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-01 15:15:42,646 autoreload 13232 22484 Watching for file changes with StatReloader
+INFO 2026-08-01 15:19:36,443 autoreload 22888 9048 Watching for file changes with StatReloader
+WARNING 2026-08-01 15:19:55,744 basehttp 13232 18312 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+WARNING 2026-08-01 15:19:55,747 basehttp 13232 18312 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+INFO 2026-08-01 15:19:56,071 basehttp 13232 10828 "POST /api/token/refresh/ HTTP/1.1" 200 582
+INFO 2026-08-01 15:19:56,072 basehttp 13232 19156 "POST /api/token/refresh/ HTTP/1.1" 200 582
+INFO 2026-08-01 15:19:56,217 basehttp 13232 18312 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-01 15:19:56,365 basehttp 13232 18312 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-01 15:19:56,408 basehttp 13232 15708 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-01 15:19:56,620 basehttp 13232 18312 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-01 15:20:03,783 basehttp 13232 18312 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-01 15:20:03,941 basehttp 13232 15708 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-01 15:20:12,034 basehttp 13232 15708 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-01 15:20:12,109 basehttp 13232 15708 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-01 15:20:38,818 basehttp 13232 20996 "GET / HTTP/1.1" 200 515
+WARNING 2026-08-01 15:20:39,071 basehttp 13232 20996 "GET /favicon.ico HTTP/1.1" 404 4652
+WARNING 2026-08-01 15:41:09,691 basehttp 13232 10200 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+WARNING 2026-08-01 15:41:09,700 basehttp 13232 10200 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+INFO 2026-08-01 15:41:10,040 basehttp 13232 14156 "POST /api/token/refresh/ HTTP/1.1" 200 582
+INFO 2026-08-01 15:41:10,040 basehttp 13232 24440 "POST /api/token/refresh/ HTTP/1.1" 200 582
+INFO 2026-08-01 15:41:10,266 basehttp 13232 10200 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-01 15:41:10,446 basehttp 13232 10200 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-01 15:41:10,479 basehttp 13232 1476 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-01 15:41:10,831 basehttp 13232 10200 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-02 10:51:42,005 autoreload 20604 8736 Watching for file changes with StatReloader
+INFO 2026-08-02 10:53:59,233 basehttp 20604 20836 "OPTIONS /api/accounts/register/ HTTP/1.1" 200 0
+WARNING 2026-08-02 10:54:00,080 basehttp 20604 15100 "POST /api/accounts/register/ HTTP/1.1" 400 119
+WARNING 2026-08-02 10:54:11,598 basehttp 20604 15100 "POST /api/accounts/register/ HTTP/1.1" 400 119
+WARNING 2026-08-02 10:54:12,840 basehttp 20604 15100 "POST /api/accounts/register/ HTTP/1.1" 400 119
+INFO 2026-08-02 10:55:39,148 autoreload 20604 8736 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 10:55:44,423 autoreload 18040 23948 Watching for file changes with StatReloader
+INFO 2026-08-02 10:56:34,706 autoreload 18040 23948 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 10:56:39,015 autoreload 6980 23100 Watching for file changes with StatReloader
+INFO 2026-08-02 10:56:44,843 autoreload 6980 23100 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 10:56:49,516 autoreload 1740 13840 Watching for file changes with StatReloader
+INFO 2026-08-02 11:02:13,908 autoreload 1740 13840 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 11:02:20,209 autoreload 16812 10616 Watching for file changes with StatReloader
+INFO 2026-08-02 11:02:28,148 autoreload 16812 10616 C:\ai-code-review-platform\backend\accounts\urls.py changed, reloading.
+INFO 2026-08-02 11:02:33,068 autoreload 4108 8900 Watching for file changes with StatReloader
+WARNING 2026-08-02 11:03:43,234 basehttp 4108 13356 "POST /api/accounts/register/ HTTP/1.1" 400 144
+INFO 2026-08-02 11:07:36,390 autoreload 13012 17144 Watching for file changes with StatReloader
+WARNING 2026-08-02 11:08:26,493 basehttp 13012 16748 "POST /api/accounts/register/ HTTP/1.1" 400 133
+INFO 2026-08-02 11:12:12,273 basehttp 13012 22376 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:16,391 basehttp 13012 14460 "POST /api/accounts/login/ HTTP/1.1" 200 1212
+INFO 2026-08-02 11:12:17,037 basehttp 13012 22376 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:17,039 basehttp 13012 8900 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:17,436 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:12:17,450 basehttp 13012 8900 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:17,876 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:12:18,032 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-02 11:12:18,421 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 520209
+INFO 2026-08-02 11:12:25,117 basehttp 13012 8900 "OPTIONS /api/code-review/submissions/cb38c41a-91e7-4bac-af8e-3e6396701343/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:25,475 basehttp 13012 14460 "DELETE /api/code-review/submissions/cb38c41a-91e7-4bac-af8e-3e6396701343/ HTTP/1.1" 204 0
+INFO 2026-08-02 11:12:25,484 basehttp 13012 13248 "GET /api/code-review/submissions/cb38c41a-91e7-4bac-af8e-3e6396701343/ HTTP/1.1" 200 718
+WARNING 2026-08-02 11:12:25,667 basehttp 13012 13248 "GET /api/code-review/submissions/cb38c41a-91e7-4bac-af8e-3e6396701343/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:12:25,825 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:12:26,238 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:12:26,896 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:12:28,104 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:12:28,929 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:12:29,038 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:12:29,393 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:12:33,286 basehttp 13012 8900 "OPTIONS /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:33,290 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:12:33,478 basehttp 13012 14460 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 8066
+INFO 2026-08-02 11:12:33,664 basehttp 13012 14460 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 8066
+INFO 2026-08-02 11:12:45,236 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:12:45,735 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:13:01,751 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:13:04,883 basehttp 13012 13248 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 8066
+INFO 2026-08-02 11:13:05,061 basehttp 13012 14460 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 200 8066
+INFO 2026-08-02 11:13:07,913 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:13:08,336 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1426
+INFO 2026-08-02 11:13:08,500 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:13:08,866 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 533695
+INFO 2026-08-02 11:13:14,252 basehttp 13012 14460 "DELETE /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 204 0
+WARNING 2026-08-02 11:13:14,431 basehttp 13012 14460 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:14,583 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1428
+WARNING 2026-08-02 11:13:14,617 basehttp 13012 14460 "GET /api/code-review/submissions/349b7b46-9058-4e96-9a06-4194335e37ea/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:14,907 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1428
+INFO 2026-08-02 11:13:15,369 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 544117
+INFO 2026-08-02 11:13:16,429 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1428
+INFO 2026-08-02 11:13:17,083 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1428
+INFO 2026-08-02 11:13:17,211 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 544117
+INFO 2026-08-02 11:13:17,735 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 544117
+INFO 2026-08-02 11:13:21,390 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/8c27e7a9-855b-454f-b13a-09110b2d11f2/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:13:21,712 basehttp 13012 13248 "DELETE /api/code-review/submissions/8c27e7a9-855b-454f-b13a-09110b2d11f2/ HTTP/1.1" 204 0
+INFO 2026-08-02 11:13:21,712 basehttp 13012 14460 "GET /api/code-review/submissions/8c27e7a9-855b-454f-b13a-09110b2d11f2/ HTTP/1.1" 200 1948
+WARNING 2026-08-02 11:13:21,894 basehttp 13012 14460 "GET /api/code-review/submissions/8c27e7a9-855b-454f-b13a-09110b2d11f2/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:22,043 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1430
+INFO 2026-08-02 11:13:22,433 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1430
+INFO 2026-08-02 11:13:22,880 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 542168
+INFO 2026-08-02 11:13:23,745 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1430
+INFO 2026-08-02 11:13:24,304 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1430
+INFO 2026-08-02 11:13:24,413 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 542168
+INFO 2026-08-02 11:13:24,838 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 542168
+INFO 2026-08-02 11:13:29,366 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/639f677e-be9f-4695-aea7-b553987cd8ad/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:13:29,672 basehttp 13012 13248 "DELETE /api/code-review/submissions/639f677e-be9f-4695-aea7-b553987cd8ad/ HTTP/1.1" 204 0
+WARNING 2026-08-02 11:13:30,034 basehttp 13012 13248 "GET /api/code-review/submissions/639f677e-be9f-4695-aea7-b553987cd8ad/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:30,189 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1424
+WARNING 2026-08-02 11:13:30,221 basehttp 13012 13248 "GET /api/code-review/submissions/639f677e-be9f-4695-aea7-b553987cd8ad/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:30,482 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1424
+INFO 2026-08-02 11:13:30,978 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 504296
+INFO 2026-08-02 11:13:31,772 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1424
+INFO 2026-08-02 11:13:32,487 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1424
+INFO 2026-08-02 11:13:32,493 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 504296
+INFO 2026-08-02 11:13:32,925 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 504296
+INFO 2026-08-02 11:13:37,882 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/73c0fded-8ec4-4dd9-ae0c-91375a1f8e0b/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:13:38,163 basehttp 13012 14460 "DELETE /api/code-review/submissions/73c0fded-8ec4-4dd9-ae0c-91375a1f8e0b/ HTTP/1.1" 204 0
+INFO 2026-08-02 11:13:38,175 basehttp 13012 13248 "GET /api/code-review/submissions/73c0fded-8ec4-4dd9-ae0c-91375a1f8e0b/ HTTP/1.1" 200 17587
+INFO 2026-08-02 11:13:38,429 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1417
+WARNING 2026-08-02 11:13:38,456 basehttp 13012 13248 "GET /api/code-review/submissions/73c0fded-8ec4-4dd9-ae0c-91375a1f8e0b/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:38,900 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1417
+INFO 2026-08-02 11:13:39,367 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 486708
+INFO 2026-08-02 11:13:39,978 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1417
+INFO 2026-08-02 11:13:40,325 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1417
+INFO 2026-08-02 11:13:40,351 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 486708
+INFO 2026-08-02 11:13:40,676 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 486708
+INFO 2026-08-02 11:13:48,249 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/a1ee15a7-47cd-4f44-a191-03f88c8dfee5/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:13:48,634 basehttp 13012 13248 "DELETE /api/code-review/submissions/a1ee15a7-47cd-4f44-a191-03f88c8dfee5/ HTTP/1.1" 204 0
+WARNING 2026-08-02 11:13:48,778 basehttp 13012 13248 "GET /api/code-review/submissions/a1ee15a7-47cd-4f44-a191-03f88c8dfee5/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:48,917 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1415
+WARNING 2026-08-02 11:13:48,957 basehttp 13012 13248 "GET /api/code-review/submissions/a1ee15a7-47cd-4f44-a191-03f88c8dfee5/ HTTP/1.1" 404 55
+INFO 2026-08-02 11:13:49,321 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1415
+INFO 2026-08-02 11:13:49,752 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 464145
+INFO 2026-08-02 11:13:50,490 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1415
+INFO 2026-08-02 11:13:51,334 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 464145
+INFO 2026-08-02 11:13:51,349 basehttp 13012 14460 "GET /api/code-review/stats/ HTTP/1.1" 200 1415
+INFO 2026-08-02 11:13:51,866 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 464145
+INFO 2026-08-02 11:13:58,606 basehttp 13012 8900 "OPTIONS /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:13:58,608 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:13:58,845 basehttp 13012 14460 "GET /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 133557
+INFO 2026-08-02 11:13:59,017 basehttp 13012 13248 "GET /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 133557
+INFO 2026-08-02 11:16:27,291 basehttp 13012 8900 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:16:27,292 basehttp 13012 22376 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:16:27,486 basehttp 13012 13248 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 11:16:27,657 basehttp 13012 13248 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 11:16:44,804 basehttp 13012 13248 "POST /api/code-review/submissions/ HTTP/1.1" 201 21229
+INFO 2026-08-02 11:16:44,814 basehttp 13012 22376 "OPTIONS /api/code-review/initiate-review/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:16:45,151 basehttp 13012 13248 "POST /api/code-review/initiate-review/ HTTP/1.1" 200 27280
+INFO 2026-08-02 11:16:48,775 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1419
+INFO 2026-08-02 11:16:49,294 basehttp 13012 13248 "GET /api/code-review/stats/ HTTP/1.1" 200 1419
+INFO 2026-08-02 11:16:49,422 basehttp 13012 14460 "GET /api/code-review/submissions/ HTTP/1.1" 200 525176
+INFO 2026-08-02 11:16:49,796 basehttp 13012 13248 "GET /api/code-review/submissions/ HTTP/1.1" 200 525176
+INFO 2026-08-02 11:16:53,238 basehttp 13012 22376 "OPTIONS /api/code-review/submissions/1f05bc04-ad17-44df-a81a-baaa609e2262/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:16:53,240 basehttp 13012 8900 "OPTIONS /api/code-review/submissions/1f05bc04-ad17-44df-a81a-baaa609e2262/ HTTP/1.1" 200 0
+INFO 2026-08-02 11:16:53,584 basehttp 13012 13248 "GET /api/code-review/submissions/1f05bc04-ad17-44df-a81a-baaa609e2262/ HTTP/1.1" 200 61030
+INFO 2026-08-02 11:16:53,793 basehttp 13012 13248 "GET /api/code-review/submissions/1f05bc04-ad17-44df-a81a-baaa609e2262/ HTTP/1.1" 200 61030
+INFO 2026-08-02 11:22:57,548 autoreload 13012 17144 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 11:23:02,627 autoreload 4412 12248 Watching for file changes with StatReloader
+INFO 2026-08-02 11:25:12,824 autoreload 4412 12248 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 11:25:16,600 autoreload 7516 8308 Watching for file changes with StatReloader
+INFO 2026-08-02 11:27:36,844 autoreload 7516 8308 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 11:27:40,963 autoreload 6132 11728 Watching for file changes with StatReloader
+INFO 2026-08-02 11:30:13,501 autoreload 6132 11728 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 11:30:16,804 autoreload 14080 18728 Watching for file changes with StatReloader
+INFO 2026-08-02 12:04:45,968 autoreload 11452 6796 Watching for file changes with StatReloader
+INFO 2026-08-02 12:06:32,319 autoreload 11452 6796 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:06:33,923 autoreload 13936 25036 Watching for file changes with StatReloader
+INFO 2026-08-02 12:06:39,270 autoreload 13936 25036 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:06:40,856 autoreload 8024 22944 Watching for file changes with StatReloader
+INFO 2026-08-02 12:07:37,322 autoreload 8024 22944 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:07:38,889 autoreload 15608 5596 Watching for file changes with StatReloader
+INFO 2026-08-02 12:07:40,827 autoreload 15608 5596 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:07:42,208 autoreload 21240 24160 Watching for file changes with StatReloader
+INFO 2026-08-02 12:07:55,269 autoreload 21240 24160 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:07:56,719 autoreload 11344 3344 Watching for file changes with StatReloader
+INFO 2026-08-02 12:10:25,216 autoreload 11344 3344 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:10:26,866 autoreload 10092 19628 Watching for file changes with StatReloader
+INFO 2026-08-02 12:13:50,003 autoreload 10092 19628 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:13:52,137 autoreload 24844 18132 Watching for file changes with StatReloader
+INFO 2026-08-02 12:14:12,235 autoreload 10336 19924 Watching for file changes with StatReloader
+INFO 2026-08-02 12:16:01,926 autoreload 10336 19924 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:16:03,539 autoreload 11356 22896 Watching for file changes with StatReloader
+INFO 2026-08-02 12:18:41,136 autoreload 11356 22896 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:18:42,698 autoreload 25060 24800 Watching for file changes with StatReloader
+INFO 2026-08-02 12:18:59,258 autoreload 25060 24800 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:19:00,932 autoreload 20200 2804 Watching for file changes with StatReloader
+INFO 2026-08-02 12:19:07,175 autoreload 20200 2804 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:19:08,685 autoreload 2444 17552 Watching for file changes with StatReloader
+INFO 2026-08-02 12:19:10,627 autoreload 2444 17552 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:19:12,098 autoreload 13536 6352 Watching for file changes with StatReloader
+INFO 2026-08-02 12:21:16,366 autoreload 13536 6352 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:21:17,586 autoreload 4820 2244 Watching for file changes with StatReloader
+INFO 2026-08-02 12:21:37,776 autoreload 20692 19576 Watching for file changes with StatReloader
+INFO 2026-08-02 12:22:47,123 autoreload 20692 19576 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:22:48,843 autoreload 12748 9040 Watching for file changes with StatReloader
+INFO 2026-08-02 12:22:59,806 autoreload 12748 9040 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:23:01,143 autoreload 18836 10012 Watching for file changes with StatReloader
+INFO 2026-08-02 12:23:21,130 autoreload 18836 10012 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:23:22,501 autoreload 10800 3208 Watching for file changes with StatReloader
+INFO 2026-08-02 12:26:24,776 autoreload 10800 3208 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:26:26,473 autoreload 11876 10984 Watching for file changes with StatReloader
+INFO 2026-08-02 12:26:57,276 autoreload 11876 10984 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:26:59,319 autoreload 21872 22232 Watching for file changes with StatReloader
+INFO 2026-08-02 12:27:11,264 autoreload 21872 22232 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:27:12,495 autoreload 5388 11232 Watching for file changes with StatReloader
+INFO 2026-08-02 12:27:14,622 autoreload 5388 11232 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:27:16,178 autoreload 3592 4092 Watching for file changes with StatReloader
+INFO 2026-08-02 12:29:15,966 autoreload 3592 4092 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:29:17,345 autoreload 1000 2508 Watching for file changes with StatReloader
+INFO 2026-08-02 12:29:35,775 autoreload 1000 2508 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:29:37,203 autoreload 21236 23004 Watching for file changes with StatReloader
+INFO 2026-08-02 12:29:41,325 autoreload 21236 23004 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:29:42,791 autoreload 1808 20164 Watching for file changes with StatReloader
+INFO 2026-08-02 12:30:55,673 autoreload 1808 20164 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:30:57,025 autoreload 22228 9524 Watching for file changes with StatReloader
+INFO 2026-08-02 12:31:04,468 autoreload 22228 9524 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:31:05,862 autoreload 2152 13100 Watching for file changes with StatReloader
+INFO 2026-08-02 12:31:36,525 autoreload 2152 13100 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:31:37,969 autoreload 18908 3268 Watching for file changes with StatReloader
+INFO 2026-08-02 12:32:48,963 autoreload 18908 3268 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:32:50,162 autoreload 24196 22048 Watching for file changes with StatReloader
+INFO 2026-08-02 12:34:07,348 autoreload 24196 22048 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:34:08,642 autoreload 20568 2244 Watching for file changes with StatReloader
+INFO 2026-08-02 12:34:11,810 autoreload 20568 2244 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:34:13,264 autoreload 5208 11020 Watching for file changes with StatReloader
+INFO 2026-08-02 12:34:35,151 autoreload 5208 11020 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:34:36,594 autoreload 7152 18392 Watching for file changes with StatReloader
+INFO 2026-08-02 12:35:25,002 autoreload 7152 18392 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:35:26,545 autoreload 7440 3816 Watching for file changes with StatReloader
+INFO 2026-08-02 12:37:02,829 autoreload 7440 3816 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:37:04,474 autoreload 10780 3012 Watching for file changes with StatReloader
+INFO 2026-08-02 12:37:07,712 autoreload 10780 3012 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:37:09,064 autoreload 23100 6268 Watching for file changes with StatReloader
+INFO 2026-08-02 12:38:20,855 autoreload 23100 6268 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:38:22,302 autoreload 21268 25568 Watching for file changes with StatReloader
+INFO 2026-08-02 12:38:42,127 autoreload 21268 25568 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:38:43,571 autoreload 19764 23280 Watching for file changes with StatReloader
+INFO 2026-08-02 12:39:06,551 autoreload 19764 23280 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:39:07,824 autoreload 21076 18392 Watching for file changes with StatReloader
+INFO 2026-08-02 12:41:53,461 autoreload 21076 18392 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:41:55,749 autoreload 1572 19908 Watching for file changes with StatReloader
+INFO 2026-08-02 12:42:02,372 autoreload 1572 19908 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:42:03,736 autoreload 17508 21000 Watching for file changes with StatReloader
+INFO 2026-08-02 12:43:34,272 autoreload 17508 21000 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:43:36,015 autoreload 1840 23308 Watching for file changes with StatReloader
+INFO 2026-08-02 12:43:44,832 autoreload 1840 23308 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:43:46,227 autoreload 10608 12604 Watching for file changes with StatReloader
+INFO 2026-08-02 12:43:59,440 autoreload 10608 12604 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:44:00,885 autoreload 25324 23664 Watching for file changes with StatReloader
+INFO 2026-08-02 12:48:47,766 autoreload 25324 23664 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 12:48:49,615 autoreload 16292 15284 Watching for file changes with StatReloader
+INFO 2026-08-02 12:49:46,280 autoreload 20888 5212 Watching for file changes with StatReloader
+INFO 2026-08-02 12:55:29,660 autoreload 4472 21240 Watching for file changes with StatReloader
+INFO 2026-08-02 12:55:45,023 autoreload 2384 14160 Watching for file changes with StatReloader
+INFO 2026-08-02 13:00:14,923 autoreload 312 21288 Watching for file changes with StatReloader
+INFO 2026-08-02 13:04:11,099 autoreload 5180 23768 Watching for file changes with StatReloader
+INFO 2026-08-02 14:27:31,536 autoreload 25956 13432 Watching for file changes with StatReloader
+INFO 2026-08-02 14:28:10,817 basehttp 25956 4080 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:28:13,889 basehttp 25956 15428 "POST /api/accounts/login/ HTTP/1.1" 200 1212
+INFO 2026-08-02 14:28:14,614 basehttp 25956 4080 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:28:14,615 basehttp 25956 26252 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:28:14,790 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:28:14,800 basehttp 25956 26252 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:28:14,972 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:28:15,225 basehttp 25956 21276 "GET /api/code-review/submissions/ HTTP/1.1" 200 525176
+INFO 2026-08-02 14:28:15,526 basehttp 25956 15428 "GET /api/code-review/submissions/ HTTP/1.1" 200 525176
+INFO 2026-08-02 14:28:26,667 basehttp 25956 26252 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:28:26,668 basehttp 25956 4080 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:28:26,847 basehttp 25956 15428 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 14:28:26,981 basehttp 25956 15428 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 14:30:28,442 basehttp 25956 15428 "POST /api/code-review/submissions/ HTTP/1.1" 201 21076
+INFO 2026-08-02 14:30:28,465 basehttp 25956 4080 "OPTIONS /api/code-review/initiate-review/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:30:28,779 basehttp 25956 15428 "POST /api/code-review/initiate-review/ HTTP/1.1" 200 519
+INFO 2026-08-02 14:30:32,029 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:30:32,284 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:30:32,751 basehttp 25956 21276 "GET /api/code-review/submissions/ HTTP/1.1" 200 556803
+INFO 2026-08-02 14:30:33,138 basehttp 25956 15428 "GET /api/code-review/submissions/ HTTP/1.1" 200 556803
+INFO 2026-08-02 14:30:37,417 basehttp 25956 4080 "OPTIONS /api/code-review/submissions/4a73e7e6-3f9e-47a5-9729-5dcc9917c663/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:30:37,418 basehttp 25956 26252 "OPTIONS /api/code-review/submissions/4a73e7e6-3f9e-47a5-9729-5dcc9917c663/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:30:37,634 basehttp 25956 15428 "GET /api/code-review/submissions/4a73e7e6-3f9e-47a5-9729-5dcc9917c663/ HTTP/1.1" 200 31626
+INFO 2026-08-02 14:30:37,792 basehttp 25956 15428 "GET /api/code-review/submissions/4a73e7e6-3f9e-47a5-9729-5dcc9917c663/ HTTP/1.1" 200 31626
+INFO 2026-08-02 14:32:39,824 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:32:40,113 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:32:40,358 basehttp 25956 21276 "GET /api/code-review/submissions/ HTTP/1.1" 200 556803
+INFO 2026-08-02 14:32:40,860 basehttp 25956 15428 "GET /api/code-review/submissions/ HTTP/1.1" 200 556803
+INFO 2026-08-02 14:32:42,864 basehttp 25956 15428 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 14:32:43,109 basehttp 25956 15428 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 14:33:11,164 basehttp 25956 15428 "POST /api/code-review/submissions/ HTTP/1.1" 201 14770
+INFO 2026-08-02 14:33:11,444 basehttp 25956 15428 "POST /api/code-review/initiate-review/ HTTP/1.1" 200 468
+INFO 2026-08-02 14:33:14,776 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:33:15,104 basehttp 25956 15428 "GET /api/code-review/stats/ HTTP/1.1" 200 196
+INFO 2026-08-02 14:33:15,302 basehttp 25956 21276 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 14:33:15,708 basehttp 25956 15428 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 14:33:18,821 basehttp 25956 4080 "OPTIONS /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:33:18,822 basehttp 25956 26252 "OPTIONS /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 200 0
+INFO 2026-08-02 14:33:19,091 basehttp 25956 15428 "GET /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 200 17347
+INFO 2026-08-02 14:33:19,349 basehttp 25956 15428 "GET /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 200 17347
+INFO 2026-08-02 14:55:57,013 autoreload 25956 13432 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 14:56:02,668 autoreload 17000 22520 Watching for file changes with StatReloader
+INFO 2026-08-02 14:57:39,250 autoreload 17000 22520 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 14:57:44,164 autoreload 1324 21828 Watching for file changes with StatReloader
+INFO 2026-08-02 14:57:54,019 autoreload 1324 21828 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 14:57:57,736 autoreload 19764 4532 Watching for file changes with StatReloader
+INFO 2026-08-02 15:01:42,415 autoreload 19764 4532 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:01:47,066 autoreload 1344 25248 Watching for file changes with StatReloader
+INFO 2026-08-02 15:01:54,395 autoreload 1344 25248 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:01:57,295 autoreload 7536 25820 Watching for file changes with StatReloader
+INFO 2026-08-02 15:02:09,468 autoreload 7536 25820 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:02:13,694 autoreload 12664 2700 Watching for file changes with StatReloader
+INFO 2026-08-02 15:02:51,639 autoreload 22040 25308 Watching for file changes with StatReloader
+INFO 2026-08-02 15:03:48,106 autoreload 22040 25308 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:03:53,307 autoreload 12448 2724 Watching for file changes with StatReloader
+INFO 2026-08-02 15:07:16,559 autoreload 12448 2724 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:07:20,329 autoreload 17136 2020 Watching for file changes with StatReloader
+INFO 2026-08-02 15:07:52,875 autoreload 17136 2020 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:07:57,149 autoreload 26524 16208 Watching for file changes with StatReloader
+INFO 2026-08-02 15:08:03,427 autoreload 26524 16208 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:08:06,763 autoreload 17324 7196 Watching for file changes with StatReloader
+INFO 2026-08-02 15:08:10,044 autoreload 17324 7196 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:08:14,081 autoreload 18152 4076 Watching for file changes with StatReloader
+INFO 2026-08-02 15:08:21,082 autoreload 18152 4076 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:08:24,724 autoreload 15000 6852 Watching for file changes with StatReloader
+INFO 2026-08-02 15:08:50,030 autoreload 15000 6852 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:08:53,373 autoreload 21808 14360 Watching for file changes with StatReloader
+INFO 2026-08-02 15:09:06,422 autoreload 21808 14360 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:09:09,655 autoreload 15068 25996 Watching for file changes with StatReloader
+INFO 2026-08-02 15:10:10,993 autoreload 15068 25996 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:10:15,749 autoreload 21424 20088 Watching for file changes with StatReloader
+INFO 2026-08-02 15:10:54,405 autoreload 21424 20088 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:10:57,944 autoreload 10412 25668 Watching for file changes with StatReloader
+INFO 2026-08-02 15:11:02,687 autoreload 10412 25668 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:11:06,628 autoreload 18624 26508 Watching for file changes with StatReloader
+INFO 2026-08-02 15:14:16,204 autoreload 18624 26508 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:14:20,100 autoreload 20716 24972 Watching for file changes with StatReloader
+INFO 2026-08-02 15:14:24,847 autoreload 20716 24972 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:14:28,414 autoreload 7068 16772 Watching for file changes with StatReloader
+INFO 2026-08-02 15:14:31,808 autoreload 7068 16772 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:14:36,574 autoreload 14976 12080 Watching for file changes with StatReloader
+INFO 2026-08-02 15:15:09,020 autoreload 3244 13132 Watching for file changes with StatReloader
+INFO 2026-08-02 15:16:25,396 autoreload 3244 13132 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:16:28,837 autoreload 2448 8480 Watching for file changes with StatReloader
+INFO 2026-08-02 15:16:46,285 autoreload 25640 5648 Watching for file changes with StatReloader
+INFO 2026-08-02 15:17:26,301 basehttp 25640 16200 "POST /api/accounts/login/ HTTP/1.1" 200 1212
+INFO 2026-08-02 15:17:27,154 basehttp 25640 16200 "GET /api/code-review/stats/ HTTP/1.1" 200 876
+INFO 2026-08-02 15:17:27,382 basehttp 25640 16200 "GET /api/code-review/stats/ HTTP/1.1" 200 876
+INFO 2026-08-02 15:17:27,607 basehttp 25640 11112 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 15:17:28,072 basehttp 25640 16200 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 15:17:32,459 basehttp 25640 16200 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 15:17:32,671 basehttp 25640 16200 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 15:25:26,341 autoreload 1488 11696 Watching for file changes with StatReloader
+INFO 2026-08-02 15:33:32,706 autoreload 1488 11696 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:33:36,724 autoreload 26208 16612 Watching for file changes with StatReloader
+INFO 2026-08-02 15:33:40,331 autoreload 26208 16612 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:33:44,273 autoreload 6352 3844 Watching for file changes with StatReloader
+INFO 2026-08-02 15:33:54,794 autoreload 6352 3844 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 15:33:59,068 autoreload 5512 10644 Watching for file changes with StatReloader
+INFO 2026-08-02 15:35:21,484 basehttp 5512 15980 "POST /api/accounts/login/ HTTP/1.1" 200 1212
+INFO 2026-08-02 15:35:22,410 basehttp 5512 15980 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 15:35:22,642 basehttp 5512 15980 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 15:35:22,896 basehttp 5512 19476 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 15:35:23,285 basehttp 5512 15980 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 15:35:26,760 basehttp 5512 15980 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 15:35:27,050 basehttp 5512 15980 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 15:47:06,371 autoreload 19068 19612 Watching for file changes with StatReloader
+INFO 2026-08-02 15:47:27,068 basehttp 19068 8460 "POST /api/accounts/login/ HTTP/1.1" 200 1212
+INFO 2026-08-02 15:47:27,821 basehttp 19068 8460 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 15:47:28,010 basehttp 19068 8460 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 15:47:28,214 basehttp 19068 23320 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 15:47:28,591 basehttp 19068 8460 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 15:47:31,787 basehttp 19068 8460 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 15:47:31,966 basehttp 19068 8460 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 16:00:50,018 autoreload 19068 19612 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:00:53,306 autoreload 9628 4200 Watching for file changes with StatReloader
+INFO 2026-08-02 16:21:46,488 autoreload 9628 4200 C:\ai-code-review-platform\backend\code_review\urls.py changed, reloading.
+INFO 2026-08-02 16:21:51,060 autoreload 16184 25496 Watching for file changes with StatReloader
+INFO 2026-08-02 16:24:45,907 autoreload 16184 25496 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:24:49,732 autoreload 22504 26476 Watching for file changes with StatReloader
+INFO 2026-08-02 16:24:52,856 autoreload 22504 26476 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:24:56,680 autoreload 6100 14300 Watching for file changes with StatReloader
+INFO 2026-08-02 16:25:01,164 autoreload 6100 14300 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:25:04,938 autoreload 1252 24812 Watching for file changes with StatReloader
+INFO 2026-08-02 16:25:11,036 autoreload 1252 24812 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:25:15,110 autoreload 25060 12088 Watching for file changes with StatReloader
+INFO 2026-08-02 16:25:35,854 autoreload 25060 12088 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:25:39,010 autoreload 26572 1744 Watching for file changes with StatReloader
+INFO 2026-08-02 16:39:40,600 autoreload 26572 1744 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:39:43,491 autoreload 11848 16324 Watching for file changes with StatReloader
+INFO 2026-08-02 16:39:57,692 autoreload 11020 25784 Watching for file changes with StatReloader
+INFO 2026-08-02 16:43:46,604 autoreload 11020 25784 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:43:50,645 autoreload 20948 9596 Watching for file changes with StatReloader
+INFO 2026-08-02 16:43:56,187 autoreload 20948 9596 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 16:44:00,779 autoreload 17188 17440 Watching for file changes with StatReloader
+INFO 2026-08-02 16:44:27,715 autoreload 21552 11996 Watching for file changes with StatReloader
+INFO 2026-08-02 16:45:16,025 autoreload 21552 11996 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:45:19,933 autoreload 17696 22408 Watching for file changes with StatReloader
+INFO 2026-08-02 16:45:23,248 autoreload 17696 22408 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:45:27,136 autoreload 4784 17824 Watching for file changes with StatReloader
+INFO 2026-08-02 16:45:30,873 autoreload 4784 17824 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:45:34,630 autoreload 4660 2504 Watching for file changes with StatReloader
+INFO 2026-08-02 16:46:29,283 autoreload 4660 2504 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:46:32,970 autoreload 18936 14480 Watching for file changes with StatReloader
+INFO 2026-08-02 16:48:31,017 autoreload 18936 14480 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:48:34,575 autoreload 13648 11256 Watching for file changes with StatReloader
+INFO 2026-08-02 16:49:13,980 autoreload 13648 11256 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:49:18,201 autoreload 12476 25844 Watching for file changes with StatReloader
+INFO 2026-08-02 16:49:21,492 autoreload 12476 25844 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:49:25,203 autoreload 13096 16244 Watching for file changes with StatReloader
+INFO 2026-08-02 16:49:53,420 autoreload 13096 16244 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:49:56,787 autoreload 6668 21296 Watching for file changes with StatReloader
+INFO 2026-08-02 16:50:02,040 autoreload 6668 21296 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:50:05,619 autoreload 11848 12876 Watching for file changes with StatReloader
+INFO 2026-08-02 16:50:10,988 autoreload 11848 12876 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:50:14,855 autoreload 25532 22680 Watching for file changes with StatReloader
+INFO 2026-08-02 16:50:27,570 autoreload 25532 22680 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:50:31,012 autoreload 21676 25764 Watching for file changes with StatReloader
+INFO 2026-08-02 16:52:19,812 autoreload 21676 25764 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 16:52:22,802 autoreload 4684 25496 Watching for file changes with StatReloader
+INFO 2026-08-02 17:08:06,268 basehttp 4684 22380 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:08:09,421 basehttp 4684 20840 "POST /api/accounts/login/ HTTP/1.1" 200 1212
+INFO 2026-08-02 17:08:10,044 basehttp 4684 2980 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:08:10,045 basehttp 4684 22380 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:08:10,246 basehttp 4684 20840 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:08:10,258 basehttp 4684 22380 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:08:10,446 basehttp 4684 20840 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:08:10,684 basehttp 4684 23276 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 17:08:11,065 basehttp 4684 20840 "GET /api/code-review/submissions/ HTTP/1.1" 200 574151
+INFO 2026-08-02 17:09:03,193 basehttp 4684 22380 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:09:03,194 basehttp 4684 2980 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:09:03,419 basehttp 4684 20840 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 17:09:03,672 basehttp 4684 20840 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 17:09:32,787 basehttp 4684 20840 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 17:09:49,428 basehttp 4684 20840 "POST /api/code-review/submissions/ HTTP/1.1" 201 1735
+INFO 2026-08-02 17:09:49,447 basehttp 4684 2980 "OPTIONS /api/code-review/initiate-review/ HTTP/1.1" 200 0
+WARNING 2026-08-02 17:09:49,658 basehttp 4684 20840 "POST /api/code-review/initiate-review/ HTTP/1.1" 404 8016
+INFO 2026-08-02 17:09:52,951 basehttp 4684 20840 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:09:53,263 basehttp 4684 20840 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:09:53,473 basehttp 4684 23276 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:09:53,848 basehttp 4684 20840 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:10:47,960 basehttp 4684 26396 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:10:47,961 basehttp 4684 2952 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:10:47,977 basehttp 4684 15664 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+WARNING 2026-08-02 17:10:47,977 basehttp 4684 26396 "GET /api/accounts/profile/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:10:47,986 basehttp 4684 26396 "GET /api/accounts/profile/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:10:47,995 basehttp 4684 26396 "GET /api/accounts/profile/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:10:48,003 basehttp 4684 26396 "GET /api/accounts/profile/ HTTP/1.1" 401 183
+INFO 2026-08-02 17:13:34,478 basehttp 4684 26396 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+WARNING 2026-08-02 17:13:34,491 basehttp 4684 26396 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:14:41,107 basehttp 4684 26396 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:14:49,616 basehttp 4684 26396 "POST /api/accounts/login/ HTTP/1.1" 401 183
+INFO 2026-08-02 17:16:02,463 autoreload 17596 16708 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:16:20,130 basehttp 17596 8736 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:21:22,330 basehttp 17596 13288 "POST /api/accounts/login/ HTTP/1.1" 401 183
+INFO 2026-08-02 17:23:54,051 autoreload 22732 5716 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:24:33,056 basehttp 22732 6172 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:24:42,993 basehttp 22732 6172 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:26:03,206 basehttp 22732 6172 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:26:35,225 basehttp 22732 6172 "POST /api/accounts/login/ HTTP/1.1" 401 183
+INFO 2026-08-02 17:30:48,374 autoreload 26152 24932 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:31:04,493 basehttp 26152 20248 "POST /api/accounts/login/ HTTP/1.1" 401 183
+INFO 2026-08-02 17:31:19,778 autoreload 26152 24932 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 17:31:25,643 autoreload 2112 22996 Watching for file changes with StatReloader
+INFO 2026-08-02 17:31:33,400 autoreload 2112 22996 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 17:31:39,362 autoreload 15976 19088 Watching for file changes with StatReloader
+INFO 2026-08-02 17:32:39,781 autoreload 15976 19088 C:\ai-code-review-platform\backend\accounts\serializers.py changed, reloading.
+INFO 2026-08-02 17:32:43,476 autoreload 23280 19104 Watching for file changes with StatReloader
+INFO 2026-08-02 17:32:51,649 autoreload 23280 19104 C:\ai-code-review-platform\backend\accounts\serializers.py changed, reloading.
+INFO 2026-08-02 17:32:55,281 autoreload 26088 17904 Watching for file changes with StatReloader
+INFO 2026-08-02 17:34:08,337 autoreload 26088 17904 C:\ai-code-review-platform\backend\accounts\serializers.py changed, reloading.
+INFO 2026-08-02 17:34:12,889 autoreload 10428 17808 Watching for file changes with StatReloader
+INFO 2026-08-02 17:34:25,926 autoreload 10428 17808 C:\ai-code-review-platform\backend\accounts\serializers.py changed, reloading.
+INFO 2026-08-02 17:34:30,073 autoreload 13348 21256 Watching for file changes with StatReloader
+INFO 2026-08-02 17:36:29,951 autoreload 13348 21256 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 17:36:33,876 autoreload 2568 19564 Watching for file changes with StatReloader
+INFO 2026-08-02 17:37:00,138 autoreload 2568 19564 C:\ai-code-review-platform\backend\accounts\urls.py changed, reloading.
+INFO 2026-08-02 17:37:03,884 autoreload 26480 21176 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:37:55,344 basehttp 26480 23284 "POST /api/accounts/login/ HTTP/1.1" 401 183
+INFO 2026-08-02 17:39:24,711 autoreload 26480 21176 C:\ai-code-review-platform\backend\accounts\views.py changed, reloading.
+INFO 2026-08-02 17:39:28,769 autoreload 22148 15568 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:40:43,006 basehttp 22148 15936 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:40:48,473 basehttp 22148 15936 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:40:50,756 basehttp 22148 15936 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:40:51,806 basehttp 22148 15936 "POST /api/accounts/login/ HTTP/1.1" 401 183
+WARNING 2026-08-02 17:43:46,943 basehttp 22148 4980 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-02 17:44:18,200 autoreload 1548 17712 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:44:31,189 basehttp 1548 12648 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-02 17:45:30,353 autoreload 16868 20932 Watching for file changes with StatReloader
+INFO 2026-08-02 17:45:44,922 basehttp 16868 13568 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+WARNING 2026-08-02 17:45:51,677 basehttp 16868 9032 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-02 17:48:03,440 autoreload 20208 25356 Watching for file changes with StatReloader
+WARNING 2026-08-02 17:48:30,204 basehttp 20208 12784 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-02 17:49:00,388 basehttp 20208 12784 "POST /api/accounts/login/ HTTP/1.1" 200 784
+WARNING 2026-08-02 17:49:27,002 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-02 17:49:27,030 basehttp 20208 25904 "OPTIONS /api/accounts/refresh/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:49:27,047 basehttp 20208 25904 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+WARNING 2026-08-02 17:49:32,625 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-02 17:49:47,034 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-02 17:51:12,147 basehttp 20208 25904 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:51:12,359 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 17:51:12,559 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 17:51:36,574 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-02 17:55:44,971 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-02 17:56:34,722 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-02 17:57:31,139 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 17:57:31,282 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 17:58:00,628 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 17:58:01,052 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 17:58:12,108 basehttp 20208 14112 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-02 17:58:12,704 basehttp 20208 9456 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:58:12,722 basehttp 20208 23464 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:58:12,937 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:58:12,953 basehttp 20208 23464 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-02 17:58:13,343 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:58:13,545 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:58:14,049 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:58:22,122 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:58:22,440 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:58:22,696 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:58:23,098 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:58:28,389 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:58:28,713 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:58:28,999 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:58:29,383 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:59:15,108 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:59:15,297 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 17:59:15,503 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 17:59:16,166 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:01:36,694 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 18:01:36,884 basehttp 20208 14112 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 18:01:36,944 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:01:37,215 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:01:37,371 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:01:37,753 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:11,471 basehttp 20208 9456 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:02:11,472 basehttp 20208 23464 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:02:11,643 basehttp 20208 26304 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:02:11,800 basehttp 20208 26304 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:02:14,665 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:02:15,023 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:02:15,135 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:15,520 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:18,105 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:18,626 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:21,811 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:02:22,018 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:02:22,169 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:22,539 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:25,485 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:02:25,666 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:02:26,044 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:02:26,526 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:14,338 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:14,728 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:21,491 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:21,913 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:30,697 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:31,094 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:34,307 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:34,653 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:34,939 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:35,369 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:41,609 basehttp 20208 9456 "OPTIONS /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:03:41,611 basehttp 20208 23464 "OPTIONS /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 200 0
+WARNING 2026-08-02 18:03:41,689 basehttp 20208 26304 "GET /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:03:41,729 basehttp 20208 26304 "GET /api/code-review/submissions/7da82f65-1507-4df3-8948-4d9223b79620/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:03:47,078 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:47,485 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:47,767 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:48,116 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:54,035 basehttp 20208 23464 "OPTIONS /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:03:54,041 basehttp 20208 9456 "OPTIONS /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:03:54,048 basehttp 20208 23848 "OPTIONS /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 200 0
+WARNING 2026-08-02 18:03:54,143 basehttp 20208 14112 "GET /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:03:54,149 basehttp 20208 26304 "DELETE /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8117
+WARNING 2026-08-02 18:03:54,229 basehttp 20208 26304 "GET /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:03:54,358 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:55,173 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:55,939 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:56,229 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:03:56,358 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:03:56,724 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+WARNING 2026-08-02 18:04:00,393 basehttp 20208 14112 "DELETE /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8117
+WARNING 2026-08-02 18:04:00,476 basehttp 20208 14112 "GET /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:04:00,541 basehttp 20208 14112 "GET /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:04:00,658 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:01,226 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:03,489 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:03,843 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:04,096 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:04,614 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:08,820 basehttp 20208 9456 "OPTIONS /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:04:08,823 basehttp 20208 23848 "OPTIONS /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:04:08,824 basehttp 20208 23464 "OPTIONS /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 200 0
+WARNING 2026-08-02 18:04:08,880 basehttp 20208 26304 "GET /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:04:08,936 basehttp 20208 14112 "GET /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:04:08,987 basehttp 20208 14112 "DELETE /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 404 8117
+INFO 2026-08-02 18:04:09,304 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:09,751 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:10,422 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:10,682 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:10,910 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:11,325 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:15,589 basehttp 20208 23848 "OPTIONS /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:04:15,590 basehttp 20208 9456 "OPTIONS /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:04:15,593 basehttp 20208 23464 "OPTIONS /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 200 0
+WARNING 2026-08-02 18:04:15,643 basehttp 20208 14112 "GET /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:04:15,683 basehttp 20208 26304 "DELETE /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 404 8117
+WARNING 2026-08-02 18:04:15,728 basehttp 20208 26304 "GET /api/code-review/submissions/d933e01c-7574-4b7c-9e51-aedec141611a/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:04:15,928 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:16,412 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:17,121 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:17,426 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:17,632 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:18,085 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+WARNING 2026-08-02 18:04:21,697 basehttp 20208 14112 "DELETE /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8117
+WARNING 2026-08-02 18:04:21,756 basehttp 20208 14112 "GET /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:04:21,839 basehttp 20208 14112 "GET /api/code-review/submissions/26e3f382-8caf-48c5-9321-7c39b4438fb9/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:04:21,980 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:22,376 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:23,287 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:23,637 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:23,935 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:24,325 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+WARNING 2026-08-02 18:04:28,401 basehttp 20208 26304 "DELETE /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 404 8117
+WARNING 2026-08-02 18:04:28,462 basehttp 20208 26304 "GET /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:04:28,542 basehttp 20208 26304 "GET /api/code-review/submissions/b2d00b1e-7f60-44e4-824d-c4c4e02cf3b8/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:04:28,652 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:29,260 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:30,196 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:30,582 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:04:30,851 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:31,261 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 575778
+INFO 2026-08-02 18:04:40,813 basehttp 20208 14112 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:04:40,968 basehttp 20208 14112 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:04:50,138 basehttp 20208 23464 "OPTIONS /api/code-review/detect-language/ HTTP/1.1" 200 0
+ERROR 2026-08-02 18:04:51,013 log 20208 14112 Internal Server Error: /api/code-review/detect-language/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\ai-code-review-platform\backend\code_review\views.py", line 180, in post
+    if not code or not code.strip():
+AttributeError: 'dict' object has no attribute 'strip'
+ERROR 2026-08-02 18:04:51,021 basehttp 20208 14112 "POST /api/code-review/detect-language/ HTTP/1.1" 500 103218
+INFO 2026-08-02 18:05:06,966 basehttp 20208 14112 "POST /api/code-review/submissions/ HTTP/1.1" 201 545
+INFO 2026-08-02 18:05:06,975 basehttp 20208 23464 "OPTIONS /api/code-review/initiate/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:05:07,286 basehttp 20208 14112 "POST /api/code-review/initiate/ HTTP/1.1" 200 1444
+INFO 2026-08-02 18:05:10,647 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:05:11,005 basehttp 20208 14112 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:05:11,321 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:05:11,773 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:05:15,559 basehttp 20208 23464 "OPTIONS /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:05:15,561 basehttp 20208 23848 "OPTIONS /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 200 0
+WARNING 2026-08-02 18:05:15,614 basehttp 20208 14112 "GET /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:05:15,660 basehttp 20208 26304 "GET /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 404 8114
+INFO 2026-08-02 18:05:20,990 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:05:21,255 basehttp 20208 26304 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:05:21,401 basehttp 20208 14112 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:05:21,773 basehttp 20208 26304 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:16:57,345 autoreload 20208 25356 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:17:00,875 autoreload 20248 25464 Watching for file changes with StatReloader
+INFO 2026-08-02 18:17:13,057 autoreload 20248 25464 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:17:16,154 autoreload 8876 10788 Watching for file changes with StatReloader
+INFO 2026-08-02 18:17:30,430 autoreload 8876 10788 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:17:34,247 autoreload 17508 23408 Watching for file changes with StatReloader
+INFO 2026-08-02 18:17:46,096 autoreload 17508 23408 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:17:49,854 autoreload 18232 11004 Watching for file changes with StatReloader
+INFO 2026-08-02 18:17:56,687 autoreload 18232 11004 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:17:59,761 autoreload 2172 17656 Watching for file changes with StatReloader
+INFO 2026-08-02 18:18:25,139 autoreload 22128 2124 Watching for file changes with StatReloader
+INFO 2026-08-02 18:18:59,606 autoreload 22128 2124 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:19:03,224 autoreload 15608 1972 Watching for file changes with StatReloader
+INFO 2026-08-02 18:21:34,804 autoreload 15608 1972 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:21:37,838 autoreload 6352 19548 Watching for file changes with StatReloader
+INFO 2026-08-02 18:21:55,214 autoreload 6352 19548 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:21:58,044 autoreload 25932 3668 Watching for file changes with StatReloader
+INFO 2026-08-02 18:22:04,937 autoreload 25932 3668 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:22:07,818 autoreload 5048 22952 Watching for file changes with StatReloader
+INFO 2026-08-02 18:22:29,192 autoreload 5048 22952 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:22:32,737 autoreload 20404 20760 Watching for file changes with StatReloader
+INFO 2026-08-02 18:22:45,716 autoreload 20404 20760 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:22:49,720 autoreload 15904 15952 Watching for file changes with StatReloader
+INFO 2026-08-02 18:23:08,078 autoreload 15904 15952 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:23:11,637 autoreload 14852 6856 Watching for file changes with StatReloader
+INFO 2026-08-02 18:23:26,128 autoreload 14852 6856 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:23:30,230 autoreload 22616 3020 Watching for file changes with StatReloader
+INFO 2026-08-02 18:23:50,267 autoreload 22616 3020 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:23:53,988 autoreload 3668 25932 Watching for file changes with StatReloader
+INFO 2026-08-02 18:24:12,186 autoreload 3668 25932 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:24:15,671 autoreload 21688 26096 Watching for file changes with StatReloader
+INFO 2026-08-02 18:24:22,727 autoreload 21688 26096 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:24:26,295 autoreload 12980 14076 Watching for file changes with StatReloader
+INFO 2026-08-02 18:24:33,186 autoreload 12980 14076 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:24:37,307 autoreload 9812 11380 Watching for file changes with StatReloader
+INFO 2026-08-02 18:24:40,456 autoreload 9812 11380 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:24:44,796 autoreload 12812 24612 Watching for file changes with StatReloader
+WARNING 2026-08-02 18:25:04,468 basehttp 12812 16204 "GET /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:25:04,514 basehttp 12812 16204 "GET /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 404 8114
+WARNING 2026-08-02 18:25:09,905 basehttp 12812 16204 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+WARNING 2026-08-02 18:25:09,914 basehttp 12812 16204 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+INFO 2026-08-02 18:25:09,933 basehttp 12812 17508 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-02 18:25:09,956 basehttp 12812 17884 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-02 18:25:10,191 basehttp 12812 16204 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:25:10,359 basehttp 12812 16204 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:25:10,649 basehttp 12812 7716 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:25:11,104 basehttp 12812 16204 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:26:36,388 autoreload 12812 24612 C:\ai-code-review-platform\backend\code_review\urls.py changed, reloading.
+INFO 2026-08-02 18:26:40,552 autoreload 21932 11828 Watching for file changes with StatReloader
+INFO 2026-08-02 18:27:38,042 basehttp 21932 24200 "GET /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 200 922
+INFO 2026-08-02 18:27:38,207 basehttp 21932 24200 "GET /api/code-review/submissions/b89df072-9c9d-4657-a73d-97133c03320c/ HTTP/1.1" 200 922
+INFO 2026-08-02 18:27:41,959 basehttp 21932 24200 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:27:42,260 basehttp 21932 24200 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:27:42,512 basehttp 21932 23468 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:27:42,816 basehttp 21932 24200 "GET /api/code-review/submissions/ HTTP/1.1" 200 558212
+INFO 2026-08-02 18:28:28,434 basehttp 21932 24200 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:28:28,588 basehttp 21932 24200 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+ERROR 2026-08-02 18:28:33,864 log 21932 24200 Internal Server Error: /api/code-review/detect-language/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\ai-code-review-platform\backend\code_review\views.py", line 186, in post
+    if not code or not code.strip():
+AttributeError: 'dict' object has no attribute 'strip'
+ERROR 2026-08-02 18:28:33,872 basehttp 21932 24200 "POST /api/code-review/detect-language/ HTTP/1.1" 500 106495
+INFO 2026-08-02 18:28:48,656 basehttp 21932 24200 "POST /api/code-review/submissions/ HTTP/1.1" 201 2386
+INFO 2026-08-02 18:28:48,983 basehttp 21932 24200 "POST /api/code-review/initiate/ HTTP/1.1" 200 1688
+INFO 2026-08-02 18:28:52,464 basehttp 21932 24200 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:28:52,695 basehttp 21932 24200 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:28:52,916 basehttp 21932 23468 "GET /api/code-review/submissions/ HTTP/1.1" 200 546860
+INFO 2026-08-02 18:28:53,216 basehttp 21932 24200 "GET /api/code-review/submissions/ HTTP/1.1" 200 546860
+INFO 2026-08-02 18:28:56,885 basehttp 21932 4428 "OPTIONS /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:28:56,886 basehttp 21932 25376 "OPTIONS /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:28:57,159 basehttp 21932 24200 "GET /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 2852
+INFO 2026-08-02 18:28:57,318 basehttp 21932 24200 "GET /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 2852
+INFO 2026-08-02 18:29:50,587 basehttp 21932 24200 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 18:29:50,856 basehttp 21932 24200 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-02 18:29:50,926 basehttp 21932 23468 "GET /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 2852
+INFO 2026-08-02 18:29:51,158 basehttp 21932 23468 "GET /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 2852
+INFO 2026-08-02 18:30:14,999 basehttp 21932 23468 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:30:15,350 basehttp 21932 23468 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:30:15,459 basehttp 21932 24200 "GET /api/code-review/submissions/ HTTP/1.1" 200 546860
+INFO 2026-08-02 18:30:15,774 basehttp 21932 23468 "GET /api/code-review/submissions/ HTTP/1.1" 200 546860
+INFO 2026-08-02 18:30:19,505 basehttp 21932 23468 "GET /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 2852
+INFO 2026-08-02 18:30:19,706 basehttp 21932 23468 "GET /api/code-review/submissions/45d588ec-1b4f-48ab-be6e-6cf4d655faa1/ HTTP/1.1" 200 2852
+INFO 2026-08-02 18:30:22,015 basehttp 21932 23468 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:30:22,355 basehttp 21932 23468 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:30:22,516 basehttp 21932 24200 "GET /api/code-review/submissions/ HTTP/1.1" 200 546860
+INFO 2026-08-02 18:30:22,872 basehttp 21932 23468 "GET /api/code-review/submissions/ HTTP/1.1" 200 546860
+INFO 2026-08-02 18:30:46,265 basehttp 21932 23468 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:30:46,396 basehttp 21932 23468 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:31:01,275 basehttp 21932 23468 "POST /api/code-review/submissions/ HTTP/1.1" 201 1134
+INFO 2026-08-02 18:31:02,022 basehttp 21932 23468 "POST /api/code-review/initiate/ HTTP/1.1" 200 3341
+INFO 2026-08-02 18:31:05,385 basehttp 21932 23468 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:31:05,751 basehttp 21932 23468 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:31:05,918 basehttp 21932 24200 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-02 18:31:06,277 basehttp 21932 23468 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-02 18:31:09,489 basehttp 21932 25376 "OPTIONS /api/code-review/submissions/939c34f2-fb72-4fc6-8bc0-92b5df9f6bff/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:31:09,490 basehttp 21932 4428 "OPTIONS /api/code-review/submissions/939c34f2-fb72-4fc6-8bc0-92b5df9f6bff/ HTTP/1.1" 200 0
+INFO 2026-08-02 18:31:09,771 basehttp 21932 23468 "GET /api/code-review/submissions/939c34f2-fb72-4fc6-8bc0-92b5df9f6bff/ HTTP/1.1" 200 2634
+INFO 2026-08-02 18:31:10,015 basehttp 21932 23468 "GET /api/code-review/submissions/939c34f2-fb72-4fc6-8bc0-92b5df9f6bff/ HTTP/1.1" 200 2634
+INFO 2026-08-02 18:49:29,898 autoreload 21932 11828 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:49:34,191 autoreload 17044 21580 Watching for file changes with StatReloader
+INFO 2026-08-02 18:49:39,977 autoreload 17044 21580 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:49:43,662 autoreload 26116 11420 Watching for file changes with StatReloader
+INFO 2026-08-02 18:49:46,727 autoreload 26116 11420 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:49:50,471 autoreload 26316 18232 Watching for file changes with StatReloader
+INFO 2026-08-02 18:49:55,249 autoreload 26316 18232 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:49:59,182 autoreload 13584 14300 Watching for file changes with StatReloader
+INFO 2026-08-02 18:50:06,681 autoreload 13584 14300 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:50:09,526 autoreload 24808 5360 Watching for file changes with StatReloader
+INFO 2026-08-02 18:51:30,325 autoreload 24808 5360 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-02 18:51:33,223 autoreload 10440 23184 Watching for file changes with StatReloader
+WARNING 2026-08-02 18:51:48,637 basehttp 10440 17300 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+WARNING 2026-08-02 18:51:48,646 basehttp 10440 17300 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+INFO 2026-08-02 18:51:48,665 basehttp 10440 8520 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-02 18:51:48,686 basehttp 10440 18984 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-02 18:51:48,928 basehttp 10440 17300 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:51:49,177 basehttp 10440 17300 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-02 18:51:49,482 basehttp 10440 10784 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-02 18:51:49,889 basehttp 10440 17300 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-02 18:51:51,831 basehttp 10440 17300 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:51:51,964 basehttp 10440 17300 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-02 18:52:38,369 basehttp 10440 17300 "POST /api/code-review/detect-language/ HTTP/1.1" 200 87
+INFO 2026-08-02 18:52:44,170 basehttp 10440 17300 "POST /api/code-review/detect-language/ HTTP/1.1" 200 87
+INFO 2026-08-03 08:04:18,278 autoreload 4308 13228 Watching for file changes with StatReloader
+INFO 2026-08-03 08:17:01,454 basehttp 4308 13536 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:03,308 basehttp 4308 11800 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-03 08:17:03,841 basehttp 4308 13536 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:03,844 basehttp 4308 12828 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:03,940 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:17:03,946 basehttp 4308 12828 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:04,025 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:17:04,230 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:17:04,406 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:17:15,027 basehttp 4308 12828 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:15,027 basehttp 4308 13536 "OPTIONS /api/accounts/profile/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:15,102 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:17:15,205 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:17:15,239 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:17:15,344 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:17:15,445 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:17:15,802 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:17:24,861 basehttp 4308 13536 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:24,862 basehttp 4308 12828 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:17:24,949 basehttp 4308 6248 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:17:25,021 basehttp 4308 6248 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:19:01,889 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:01,989 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:02,205 basehttp 4308 6248 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:19:02,286 basehttp 4308 6248 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:19:03,987 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:04,086 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:04,157 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:04,591 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:07,624 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:07,715 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:07,750 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:07,843 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:07,942 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:08,124 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:21,679 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:21,795 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:21,824 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:21,917 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:21,979 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:22,140 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:45,221 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:45,339 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:19:45,365 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:45,476 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:19:45,537 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:19:45,705 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:22:13,216 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:22:13,281 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:22:13,315 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:22:13,417 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:22:13,478 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:22:13,644 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:22:55,518 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:22:55,638 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:22:55,711 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:22:55,953 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:22:58,938 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:22:59,045 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:22:59,072 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:22:59,188 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:22:59,279 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:22:59,581 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:23:21,678 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:23:21,796 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:23:21,830 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:23:21,936 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:23:22,031 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:23:22,237 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:23:26,657 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:23:26,748 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:24:43,438 basehttp 4308 6248 "POST /api/accounts/login/ HTTP/1.1" 200 784
+INFO 2026-08-03 08:24:44,211 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:24:44,322 basehttp 4308 6248 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:24:44,426 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:24:44,635 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:25:27,854 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:25:27,983 basehttp 4308 6248 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:25:28,014 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:25:28,111 basehttp 4308 11800 "GET /api/code-review/stats/ HTTP/1.1" 200 2215
+INFO 2026-08-03 08:25:28,219 basehttp 4308 6248 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:25:28,440 basehttp 4308 11800 "GET /api/code-review/submissions/ HTTP/1.1" 200 531176
+INFO 2026-08-03 08:26:45,880 basehttp 4308 9756 "OPTIONS /api/accounts/register/ HTTP/1.1" 200 0
+WARNING 2026-08-03 08:26:46,116 basehttp 4308 11800 "POST /api/accounts/register/ HTTP/1.1" 400 166
+INFO 2026-08-03 08:30:22,156 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:30:22,326 basehttp 4308 11800 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+WARNING 2026-08-03 08:31:04,714 basehttp 4308 11800 "POST /api/accounts/register/ HTTP/1.1" 400 166
+WARNING 2026-08-03 08:33:18,463 basehttp 4308 5272 "POST /api/accounts/register/ HTTP/1.1" 400 119
+INFO 2026-08-03 08:34:48,057 basehttp 4308 5272 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+INFO 2026-08-03 08:34:49,071 basehttp 4308 5272 "GET /api/accounts/profile/ HTTP/1.1" 200 387
+WARNING 2026-08-03 08:35:34,916 basehttp 4308 5272 "POST /api/accounts/register/ HTTP/1.1" 400 119
+WARNING 2026-08-03 08:36:39,267 basehttp 4308 5272 "POST /api/accounts/register/ HTTP/1.1" 400 108
+INFO 2026-08-03 08:37:13,988 basehttp 4308 5272 "POST /api/accounts/register/ HTTP/1.1" 201 1225
+INFO 2026-08-03 08:37:15,186 basehttp 4308 5272 "GET /api/code-review/stats/ HTTP/1.1" 200 2204
+INFO 2026-08-03 08:37:15,286 basehttp 4308 1164 "GET /api/code-review/submissions/ HTTP/1.1" 200 52
+INFO 2026-08-03 08:37:15,296 basehttp 4308 5272 "GET /api/code-review/stats/ HTTP/1.1" 200 2204
+INFO 2026-08-03 08:37:15,630 basehttp 4308 5272 "GET /api/code-review/submissions/ HTTP/1.1" 200 52
+INFO 2026-08-03 08:37:32,238 basehttp 4308 5272 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:37:32,317 basehttp 4308 5272 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:38:25,847 basehttp 4308 23924 "OPTIONS /api/code-review/detect-language/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:38:31,004 basehttp 4308 5272 "POST /api/code-review/detect-language/ HTTP/1.1" 200 87
+INFO 2026-08-03 08:38:38,849 basehttp 4308 5272 "POST /api/code-review/submissions/ HTTP/1.1" 201 954
+INFO 2026-08-03 08:38:38,854 basehttp 4308 23924 "OPTIONS /api/code-review/initiate/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:38:39,033 basehttp 4308 5272 "POST /api/code-review/initiate/ HTTP/1.1" 200 1422
+INFO 2026-08-03 08:38:42,149 basehttp 4308 5272 "GET /api/code-review/stats/ HTTP/1.1" 200 2208
+INFO 2026-08-03 08:38:42,245 basehttp 4308 5272 "GET /api/code-review/stats/ HTTP/1.1" 200 2208
+INFO 2026-08-03 08:38:42,249 basehttp 4308 1164 "GET /api/code-review/submissions/ HTTP/1.1" 200 1345
+INFO 2026-08-03 08:38:42,366 basehttp 4308 1164 "GET /api/code-review/submissions/ HTTP/1.1" 200 1345
+INFO 2026-08-03 08:38:45,401 basehttp 4308 23924 "OPTIONS /api/code-review/submissions/4667538a-6452-4312-879b-2f5574144c12/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:38:45,407 basehttp 4308 9496 "OPTIONS /api/code-review/submissions/4667538a-6452-4312-879b-2f5574144c12/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:38:45,508 basehttp 4308 1164 "GET /api/code-review/submissions/4667538a-6452-4312-879b-2f5574144c12/ HTTP/1.1" 200 1293
+INFO 2026-08-03 08:38:45,602 basehttp 4308 1164 "GET /api/code-review/submissions/4667538a-6452-4312-879b-2f5574144c12/ HTTP/1.1" 200 1293
+INFO 2026-08-03 08:39:25,802 basehttp 4308 1164 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:39:25,881 basehttp 4308 1164 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:39:36,747 basehttp 4308 1164 "POST /api/code-review/submissions/ HTTP/1.1" 201 2101
+INFO 2026-08-03 08:39:36,999 basehttp 4308 1164 "POST /api/code-review/initiate/ HTTP/1.1" 200 2273
+INFO 2026-08-03 08:39:40,116 basehttp 4308 1164 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 08:39:40,219 basehttp 4308 1164 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 08:39:40,219 basehttp 4308 5272 "GET /api/code-review/submissions/ HTTP/1.1" 200 4210
+INFO 2026-08-03 08:39:40,428 basehttp 4308 5272 "GET /api/code-review/submissions/ HTTP/1.1" 200 4210
+INFO 2026-08-03 08:39:43,594 basehttp 4308 23924 "OPTIONS /api/code-review/submissions/026394c5-4f6e-4901-bef8-6bd53d895389/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:39:43,594 basehttp 4308 9496 "OPTIONS /api/code-review/submissions/026394c5-4f6e-4901-bef8-6bd53d895389/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:39:43,699 basehttp 4308 5272 "GET /api/code-review/submissions/026394c5-4f6e-4901-bef8-6bd53d895389/ HTTP/1.1" 200 2864
+INFO 2026-08-03 08:39:43,778 basehttp 4308 5272 "GET /api/code-review/submissions/026394c5-4f6e-4901-bef8-6bd53d895389/ HTTP/1.1" 200 2864
+INFO 2026-08-03 08:42:06,256 autoreload 4308 13228 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:42:09,949 autoreload 4932 11356 Watching for file changes with StatReloader
+INFO 2026-08-03 08:42:14,276 autoreload 4932 11356 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:42:16,089 autoreload 12888 15752 Watching for file changes with StatReloader
+INFO 2026-08-03 08:42:22,921 autoreload 12888 15752 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:42:24,743 autoreload 1588 14428 Watching for file changes with StatReloader
+INFO 2026-08-03 08:42:39,120 autoreload 1588 14428 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:42:40,680 autoreload 6068 26116 Watching for file changes with StatReloader
+INFO 2026-08-03 08:43:05,264 autoreload 6068 26116 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:43:07,368 autoreload 15116 10500 Watching for file changes with StatReloader
+INFO 2026-08-03 08:43:17,397 autoreload 15116 10500 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:43:19,781 autoreload 20048 2992 Watching for file changes with StatReloader
+INFO 2026-08-03 08:43:27,832 autoreload 20048 2992 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:43:30,259 autoreload 6812 19924 Watching for file changes with StatReloader
+INFO 2026-08-03 08:47:19,691 autoreload 6812 19924 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 08:47:21,398 autoreload 14908 7852 Watching for file changes with StatReloader
+INFO 2026-08-03 08:47:44,209 basehttp 14908 9396 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 08:47:44,430 basehttp 14908 9396 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 08:47:44,448 basehttp 14908 23844 "GET /api/code-review/submissions/ HTTP/1.1" 200 4210
+INFO 2026-08-03 08:47:44,535 basehttp 14908 23844 "GET /api/code-review/submissions/ HTTP/1.1" 200 4210
+INFO 2026-08-03 08:47:46,172 basehttp 14908 23844 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:47:46,253 basehttp 14908 23844 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 08:47:57,820 basehttp 14908 23844 "POST /api/code-review/submissions/ HTTP/1.1" 201 2185
+INFO 2026-08-03 08:47:59,430 basehttp 14908 23844 "POST /api/code-review/initiate/ HTTP/1.1" 200 3148
+INFO 2026-08-03 08:48:02,577 basehttp 14908 23844 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 08:48:02,684 basehttp 14908 9396 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-03 08:48:02,685 basehttp 14908 23844 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 08:48:02,829 basehttp 14908 23844 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-03 08:48:05,530 basehttp 14908 18500 "OPTIONS /api/code-review/submissions/d201aff8-5ddb-408c-b95f-4e8ba63e96e6/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:48:05,538 basehttp 14908 9032 "OPTIONS /api/code-review/submissions/d201aff8-5ddb-408c-b95f-4e8ba63e96e6/ HTTP/1.1" 200 0
+INFO 2026-08-03 08:48:05,623 basehttp 14908 23844 "GET /api/code-review/submissions/d201aff8-5ddb-408c-b95f-4e8ba63e96e6/ HTTP/1.1" 200 3529
+INFO 2026-08-03 08:48:05,702 basehttp 14908 23844 "GET /api/code-review/submissions/d201aff8-5ddb-408c-b95f-4e8ba63e96e6/ HTTP/1.1" 200 3529
+INFO 2026-08-03 10:10:46,966 autoreload 20216 21216 Watching for file changes with StatReloader
+INFO 2026-08-03 10:11:24,625 autoreload 20216 21216 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:11:27,819 autoreload 12220 1544 Watching for file changes with StatReloader
+INFO 2026-08-03 10:16:25,293 autoreload 12220 1544 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:16:29,397 autoreload 26424 9212 Watching for file changes with StatReloader
+INFO 2026-08-03 10:17:46,979 autoreload 26424 9212 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:17:50,912 autoreload 11724 21580 Watching for file changes with StatReloader
+INFO 2026-08-03 10:17:54,878 autoreload 11724 21580 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:17:57,670 autoreload 25484 22404 Watching for file changes with StatReloader
+INFO 2026-08-03 10:18:06,395 autoreload 25484 22404 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:18:09,800 autoreload 3460 18504 Watching for file changes with StatReloader
+INFO 2026-08-03 10:18:30,733 autoreload 21688 17104 Watching for file changes with StatReloader
+INFO 2026-08-03 10:19:20,063 autoreload 21688 17104 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:19:23,462 autoreload 19248 11720 Watching for file changes with StatReloader
+INFO 2026-08-03 10:20:17,045 autoreload 19248 11720 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:20:20,812 autoreload 21064 23392 Watching for file changes with StatReloader
+INFO 2026-08-03 10:20:28,981 autoreload 21064 23392 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:20:32,966 autoreload 25144 15492 Watching for file changes with StatReloader
+INFO 2026-08-03 10:21:53,780 autoreload 25144 15492 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:21:57,646 autoreload 24732 22672 Watching for file changes with StatReloader
+INFO 2026-08-03 10:23:11,875 autoreload 24732 22672 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:23:15,538 autoreload 8088 10352 Watching for file changes with StatReloader
+INFO 2026-08-03 10:23:29,202 autoreload 8088 10352 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:23:32,985 autoreload 9468 1428 Watching for file changes with StatReloader
+INFO 2026-08-03 10:25:38,769 autoreload 9468 1428 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:25:41,477 autoreload 13116 19648 Watching for file changes with StatReloader
+INFO 2026-08-03 10:26:17,498 autoreload 13116 19648 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:26:20,495 autoreload 7648 22264 Watching for file changes with StatReloader
+INFO 2026-08-03 10:32:51,649 autoreload 7648 22264 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:32:56,013 autoreload 7964 14212 Watching for file changes with StatReloader
+INFO 2026-08-03 10:33:13,193 autoreload 7964 14212 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:33:16,145 autoreload 2368 11956 Watching for file changes with StatReloader
+INFO 2026-08-03 10:33:24,019 autoreload 2368 11956 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:33:27,753 autoreload 4088 9624 Watching for file changes with StatReloader
+INFO 2026-08-03 10:35:54,862 basehttp 4088 26260 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+WARNING 2026-08-03 10:35:55,051 basehttp 4088 16996 "POST /api/accounts/login/ HTTP/1.1" 401 103
+INFO 2026-08-03 10:36:09,687 basehttp 4088 16996 "POST /api/accounts/login/ HTTP/1.1" 200 789
+INFO 2026-08-03 10:36:10,251 basehttp 4088 26260 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-03 10:36:10,264 basehttp 4088 23496 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-03 10:36:10,582 basehttp 4088 16996 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 10:36:10,598 basehttp 4088 23496 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-03 10:36:10,932 basehttp 4088 16996 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 10:36:11,022 basehttp 4088 23752 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-03 10:36:11,170 basehttp 4088 16996 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-03 10:42:22,927 autoreload 4088 9624 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:42:27,393 autoreload 21112 23736 Watching for file changes with StatReloader
+INFO 2026-08-03 10:42:58,951 autoreload 21112 23736 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:43:02,090 autoreload 16076 1220 Watching for file changes with StatReloader
+INFO 2026-08-03 10:43:07,885 autoreload 16076 1220 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:43:11,200 autoreload 16336 12412 Watching for file changes with StatReloader
+INFO 2026-08-03 10:43:15,643 autoreload 16336 12412 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 10:43:18,815 autoreload 13056 7648 Watching for file changes with StatReloader
+INFO 2026-08-03 19:05:15,697 autoreload 25740 25340 Watching for file changes with StatReloader
+INFO 2026-08-03 19:07:46,670 autoreload 25740 25340 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:07:48,713 autoreload 21924 17596 Watching for file changes with StatReloader
+INFO 2026-08-03 19:11:44,737 autoreload 21924 17596 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:11:46,492 autoreload 21272 14264 Watching for file changes with StatReloader
+INFO 2026-08-03 19:12:01,162 autoreload 21272 14264 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:12:02,634 autoreload 14048 10264 Watching for file changes with StatReloader
+INFO 2026-08-03 19:12:24,824 autoreload 14048 10264 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:12:26,370 autoreload 15036 12896 Watching for file changes with StatReloader
+INFO 2026-08-03 19:12:31,666 autoreload 15036 12896 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:12:33,252 autoreload 14116 21396 Watching for file changes with StatReloader
+INFO 2026-08-03 19:13:57,756 autoreload 14116 21396 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:13:59,475 autoreload 1492 18168 Watching for file changes with StatReloader
+INFO 2026-08-03 19:14:15,145 autoreload 1492 18168 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:14:16,612 autoreload 5084 11664 Watching for file changes with StatReloader
+INFO 2026-08-03 19:15:04,347 autoreload 18876 11040 Watching for file changes with StatReloader
+INFO 2026-08-03 19:37:02,129 autoreload 18876 11040 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:37:06,943 autoreload 9804 15088 Watching for file changes with StatReloader
+INFO 2026-08-03 19:39:30,406 autoreload 9804 15088 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:39:34,565 autoreload 5500 23248 Watching for file changes with StatReloader
+INFO 2026-08-03 19:39:38,954 autoreload 5500 23248 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:39:42,836 autoreload 19868 4984 Watching for file changes with StatReloader
+INFO 2026-08-03 19:40:13,783 autoreload 19868 4984 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:40:17,451 autoreload 15172 25832 Watching for file changes with StatReloader
+INFO 2026-08-03 19:43:57,623 autoreload 15172 25832 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 19:44:01,537 autoreload 21020 12284 Watching for file changes with StatReloader
+INFO 2026-08-03 20:23:55,622 basehttp 21020 26228 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-03 20:24:00,459 basehttp 21020 16600 "POST /api/accounts/login/ HTTP/1.1" 200 789
+INFO 2026-08-03 20:24:01,033 basehttp 21020 26228 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-03 20:24:01,045 basehttp 21020 26228 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-03 20:24:01,202 basehttp 21020 16600 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 20:24:01,210 basehttp 21020 26228 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-03 20:24:01,365 basehttp 21020 16600 "GET /api/code-review/stats/ HTTP/1.1" 200 2207
+INFO 2026-08-03 20:24:01,438 basehttp 21020 21068 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-03 20:24:01,630 basehttp 21020 21068 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-03 20:24:06,529 basehttp 21020 26228 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-03 20:24:06,529 basehttp 21020 14536 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-03 20:24:06,697 basehttp 21020 21068 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 20:24:06,852 basehttp 21020 21068 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-03 20:24:20,513 basehttp 21020 26228 "OPTIONS /api/code-review/detect-language/ HTTP/1.1" 200 0
+ERROR 2026-08-03 20:24:21,515 log 21020 21068 Internal Server Error: /api/code-review/detect-language/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\ai-code-review-platform\backend\code_review\views.py", line 455, in post
+    if not code or not code.strip():
+AttributeError: 'dict' object has no attribute 'strip'
+ERROR 2026-08-03 20:24:21,533 basehttp 21020 21068 "POST /api/code-review/detect-language/ HTTP/1.1" 500 106469
+ERROR 2026-08-03 20:24:35,337 log 21020 21068 Internal Server Error: /api/code-review/detect-language/
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\ai-code-review-platform\backend\code_review\views.py", line 455, in post
+    if not code or not code.strip():
+AttributeError: 'dict' object has no attribute 'strip'
+ERROR 2026-08-03 20:24:35,343 basehttp 21020 21068 "POST /api/code-review/detect-language/ HTTP/1.1" 500 106469
+INFO 2026-08-03 20:26:52,281 autoreload 21020 12284 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 20:26:56,204 autoreload 13932 23004 Watching for file changes with StatReloader
+INFO 2026-08-03 20:27:04,579 autoreload 13932 23004 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 20:27:08,273 autoreload 15024 11868 Watching for file changes with StatReloader
+INFO 2026-08-03 20:34:27,117 autoreload 15024 11868 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-03 20:34:30,725 autoreload 5340 19192 Watching for file changes with StatReloader
+INFO 2026-08-03 20:38:29,976 autoreload 3796 7380 Watching for file changes with StatReloader
+INFO 2026-08-03 20:40:06,222 autoreload 5344 24600 Watching for file changes with StatReloader
+INFO 2026-08-03 20:41:14,709 basehttp 5344 10520 "GET / HTTP/1.1" 200 515
+WARNING 2026-08-03 20:41:15,012 basehttp 5344 10520 "GET /favicon.ico HTTP/1.1" 404 4652
+INFO 2026-08-03 20:41:30,868 basehttp 5344 10520 "GET / HTTP/1.1" 200 515
+WARNING 2026-08-03 20:41:48,037 basehttp 5344 10520 "GET /api/ HTTP/1.1" 404 4631
+INFO 2026-08-03 20:42:21,991 basehttp 5344 10520 "GET /api/code-review/llm-status/ HTTP/1.1" 200 10316
+INFO 2026-08-03 20:42:22,726 basehttp 5344 1180 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2026-08-03 20:42:22,738 basehttp 5344 1180 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2026-08-03 20:42:22,750 basehttp 5344 10520 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-08-03 20:42:22,760 basehttp 5344 1180 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-08-03 20:42:22,785 basehttp 5344 10520 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-08-03 20:42:22,786 basehttp 5344 1180 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-08-03 20:42:22,801 basehttp 5344 10520 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2026-08-03 20:42:23,349 basehttp 5344 26104 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2026-08-03 20:42:23,362 basehttp 5344 6964 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2026-08-03 20:42:23,393 basehttp 5344 12116 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-08-03 20:42:23,394 basehttp 5344 19648 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-08-03 20:42:23,445 basehttp 5344 19648 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2026-08-03 21:06:03,824 autoreload 6524 1036 Watching for file changes with StatReloader
+INFO 2026-08-03 21:09:13,260 basehttp 6524 17620 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-03 21:09:22,139 basehttp 6524 17620 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-03 21:10:37,905 basehttp 6524 9828 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-03 21:10:51,459 basehttp 6524 16612 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-03 21:12:17,358 basehttp 6524 21144 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-03 21:24:17,513 autoreload 21732 17736 Watching for file changes with StatReloader
+INFO 2026-08-03 21:27:04,143 autoreload 18436 16024 Watching for file changes with StatReloader
+INFO 2026-08-03 21:27:18,043 basehttp 18436 3596 "POST /api/token/ HTTP/1.1" 200 582
+INFO 2026-08-03 21:27:20,034 basehttp 18436 3596 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+WARNING 2026-08-03 21:27:20,231 basehttp 18436 3596 "POST /api/code-review/submissions/ HTTP/1.1" 400 76
+INFO 2026-08-03 21:28:44,262 basehttp 18436 23688 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-08-03 21:28:44,700 basehttp 18436 23688 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2026-08-03 21:28:45,581 basehttp 18436 12964 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-08-03 21:28:45,650 basehttp 18436 10920 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2026-08-03 21:28:45,654 basehttp 18436 23688 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2026-08-03 21:28:45,716 basehttp 18436 17380 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2026-08-03 21:28:45,730 basehttp 18436 24264 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-08-03 21:28:45,774 basehttp 18436 2232 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-08-03 21:28:45,818 basehttp 18436 24264 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-08-03 21:28:45,984 basehttp 18436 24264 "GET /favicon.ico HTTP/1.1" 404 4652
+INFO 2026-08-03 21:29:01,893 basehttp 18436 24264 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-08-03 21:29:02,155 basehttp 18436 24264 "GET /admin/ HTTP/1.1" 200 11138
+INFO 2026-08-03 21:29:02,214 basehttp 18436 24264 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-08-03 21:29:02,232 basehttp 18436 2232 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-08-03 21:29:02,234 basehttp 18436 17380 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-08-04 07:59:29,160 autoreload 22972 21680 Watching for file changes with StatReloader
+INFO 2026-08-04 08:03:01,082 basehttp 22972 9476 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:05,780 basehttp 22972 3896 "POST /api/accounts/login/ HTTP/1.1" 200 789
+INFO 2026-08-04 08:03:06,360 basehttp 22972 9476 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:06,361 basehttp 22972 21400 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:06,529 basehttp 22972 3896 "GET /api/code-review/stats/ HTTP/1.1" 200 2433
+INFO 2026-08-04 08:03:06,537 basehttp 22972 21400 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:06,707 basehttp 22972 3896 "GET /api/code-review/stats/ HTTP/1.1" 200 2433
+INFO 2026-08-04 08:03:06,759 basehttp 22972 16052 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-04 08:03:06,949 basehttp 22972 3896 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-04 08:03:16,949 basehttp 22972 3896 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-04 08:03:17,127 basehttp 22972 3896 "GET /api/code-review/submissions/ HTTP/1.1" 200 7740
+INFO 2026-08-04 08:03:23,821 basehttp 22972 21400 "OPTIONS /api/code-review/submissions/d201aff8-5ddb-408c-b95f-4e8ba63e96e6/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:24,143 basehttp 22972 3896 "DELETE /api/code-review/submissions/d201aff8-5ddb-408c-b95f-4e8ba63e96e6/ HTTP/1.1" 204 0
+INFO 2026-08-04 08:03:26,947 basehttp 22972 21400 "OPTIONS /api/code-review/submissions/026394c5-4f6e-4901-bef8-6bd53d895389/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:27,369 basehttp 22972 3896 "DELETE /api/code-review/submissions/026394c5-4f6e-4901-bef8-6bd53d895389/ HTTP/1.1" 204 0
+INFO 2026-08-04 08:03:30,061 basehttp 22972 21400 "OPTIONS /api/code-review/submissions/4667538a-6452-4312-879b-2f5574144c12/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:30,355 basehttp 22972 3896 "DELETE /api/code-review/submissions/4667538a-6452-4312-879b-2f5574144c12/ HTTP/1.1" 204 0
+INFO 2026-08-04 08:03:33,242 basehttp 22972 21400 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:33,242 basehttp 22972 9476 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-04 08:03:33,440 basehttp 22972 3896 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 08:03:33,591 basehttp 22972 3896 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 08:04:33,658 basehttp 22972 4964 "GET /admin/ HTTP/1.1" 200 11138
+WARNING 2026-08-04 08:04:33,875 basehttp 22972 4964 "GET /favicon.ico HTTP/1.1" 404 4652
+INFO 2026-08-04 08:04:49,970 basehttp 22972 4964 "GET /admin/code_review/codesubmission/add/ HTTP/1.1" 200 26680
+INFO 2026-08-04 08:04:50,270 basehttp 22972 20740 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-08-04 08:04:50,915 basehttp 22972 20344 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-08-04 08:04:50,930 basehttp 22972 20344 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-08-04 08:04:50,944 basehttp 22972 20344 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-08-04 08:04:51,014 basehttp 22972 4524 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-08-04 08:04:51,036 basehttp 22972 4524 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-08-04 08:04:51,075 basehttp 22972 4964 "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2026-08-04 08:04:51,114 basehttp 22972 18172 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2026-08-04 08:04:51,115 basehttp 22972 4964 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2026-08-04 08:04:51,154 basehttp 22972 20740 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-08-04 08:04:51,227 basehttp 22972 24800 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-08-04 08:04:51,257 basehttp 22972 20344 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-08-04 08:04:51,292 basehttp 22972 24800 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-08-04 08:04:51,295 basehttp 22972 20344 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2026-08-04 08:06:01,302 basehttp 22972 20344 "POST /admin/code_review/codesubmission/add/ HTTP/1.1" 200 27269
+INFO 2026-08-04 08:06:01,434 basehttp 22972 20344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-08-04 08:06:39,533 basehttp 22972 20344 "POST /admin/code_review/codesubmission/add/ HTTP/1.1" 302 0
+INFO 2026-08-04 08:06:39,987 basehttp 22972 20344 "GET /admin/code_review/codesubmission/ HTTP/1.1" 200 31163
+INFO 2026-08-04 08:06:40,048 basehttp 22972 20344 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2026-08-04 08:06:40,055 basehttp 22972 20740 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2026-08-04 08:06:40,064 basehttp 22972 20740 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-08-04 08:06:40,153 basehttp 22972 24800 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-08-04 08:06:40,209 basehttp 22972 24800 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2026-08-04 08:06:40,216 basehttp 22972 20740 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2026-08-04 08:06:40,220 basehttp 22972 20344 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2026-08-04 08:10:40,112 basehttp 22972 10380 "POST /api/token/ HTTP/1.1" 200 582
+WARNING 2026-08-04 08:10:40,204 basehttp 22972 10380 "POST /api/code-review/initiate-review/ HTTP/1.1" 404 8300
+INFO 2026-08-04 08:11:04,824 basehttp 22972 20344 "GET /admin/code_review/codesubmission/c9a1a935-628c-495e-aa7c-6342fcc95a64/change/ HTTP/1.1" 200 27582
+INFO 2026-08-04 08:11:05,078 basehttp 22972 20344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-08-04 08:11:05,176 basehttp 22972 20344 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2026-08-04 08:11:26,783 basehttp 22972 10380 "POST /api/token/ HTTP/1.1" 200 582
+WARNING 2026-08-04 08:11:26,952 basehttp 22972 10380 "POST /api/code-review/initiate-review/ HTTP/1.1" 404 8300
+INFO 2026-08-04 08:13:03,876 basehttp 22972 10380 "POST /api/token/ HTTP/1.1" 200 582
+INFO 2026-08-04 08:13:13,067 basehttp 22972 10380 "POST /api/code-review/initiate/ HTTP/1.1" 200 6000
+INFO 2026-08-04 08:18:54,085 autoreload 22972 21680 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-04 08:18:58,007 autoreload 18576 2248 Watching for file changes with StatReloader
+INFO 2026-08-04 08:19:50,012 basehttp 18576 15408 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 08:20:59,729 autoreload 18576 2248 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:21:04,041 autoreload 8188 24080 Watching for file changes with StatReloader
+INFO 2026-08-04 08:21:11,445 autoreload 8188 24080 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:21:15,141 autoreload 25284 3596 Watching for file changes with StatReloader
+INFO 2026-08-04 08:21:26,691 autoreload 25284 3596 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:21:30,161 autoreload 20612 15436 Watching for file changes with StatReloader
+INFO 2026-08-04 08:22:03,201 autoreload 20612 15436 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:22:06,938 autoreload 17000 12100 Watching for file changes with StatReloader
+INFO 2026-08-04 08:22:26,440 autoreload 23852 26584 Watching for file changes with StatReloader
+INFO 2026-08-04 08:23:13,807 autoreload 23852 26584 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:23:13,836 autoreload 17000 12100 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:23:17,021 autoreload 11148 4940 Watching for file changes with StatReloader
+INFO 2026-08-04 08:23:17,171 autoreload 18036 12964 Watching for file changes with StatReloader
+INFO 2026-08-04 08:24:32,574 autoreload 11148 4940 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:24:32,778 autoreload 18036 12964 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:24:35,893 autoreload 11876 21960 Watching for file changes with StatReloader
+INFO 2026-08-04 08:24:36,163 autoreload 15084 24308 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:01,037 autoreload 15084 24308 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:01,969 autoreload 11876 21960 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:04,231 autoreload 15932 11092 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:05,446 autoreload 18056 16040 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:09,058 autoreload 15932 11092 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:09,670 autoreload 18056 16040 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:12,433 autoreload 23340 13052 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:12,689 autoreload 16228 1812 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:43,654 autoreload 16228 1812 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:43,664 autoreload 23340 13052 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:46,725 autoreload 20516 12824 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:46,810 autoreload 19696 21620 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:55,541 autoreload 20516 12824 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:55,877 autoreload 19696 21620 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:25:58,524 autoreload 11360 2100 Watching for file changes with StatReloader
+INFO 2026-08-04 08:25:58,881 autoreload 13684 14372 Watching for file changes with StatReloader
+INFO 2026-08-04 08:26:16,661 autoreload 11360 2100 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:26:16,663 autoreload 13684 14372 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:26:19,594 autoreload 7196 16640 Watching for file changes with StatReloader
+INFO 2026-08-04 08:26:19,759 autoreload 10960 4904 Watching for file changes with StatReloader
+INFO 2026-08-04 08:26:27,499 autoreload 10960 4904 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:26:28,369 autoreload 7196 16640 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:26:30,284 autoreload 1840 15904 Watching for file changes with StatReloader
+INFO 2026-08-04 08:26:31,115 autoreload 13072 20108 Watching for file changes with StatReloader
+INFO 2026-08-04 08:28:20,122 autoreload 13072 20108 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:28:20,240 autoreload 1840 15904 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:28:22,964 autoreload 12376 9332 Watching for file changes with StatReloader
+INFO 2026-08-04 08:28:23,077 autoreload 11536 644 Watching for file changes with StatReloader
+INFO 2026-08-04 08:30:22,600 autoreload 11036 11948 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:03,801 autoreload 11536 644 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:03,915 autoreload 11036 11948 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:06,935 autoreload 892 16136 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:06,949 autoreload 12024 8968 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:13,597 autoreload 12024 8968 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:13,808 autoreload 892 16136 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:16,857 autoreload 21192 17892 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:17,223 autoreload 8636 1320 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:30,838 autoreload 8636 1320 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:30,839 autoreload 21192 17892 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:33,857 autoreload 17064 14748 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:33,983 autoreload 16052 10784 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:49,095 autoreload 16052 10784 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:49,730 autoreload 17064 14748 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:32:52,229 autoreload 18344 11292 Watching for file changes with StatReloader
+INFO 2026-08-04 08:32:52,577 autoreload 9592 11116 Watching for file changes with StatReloader
+INFO 2026-08-04 08:38:41,748 autoreload 9592 11116 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:38:41,766 autoreload 18344 11292 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:38:45,829 autoreload 16680 2216 Watching for file changes with StatReloader
+INFO 2026-08-04 08:38:45,970 autoreload 3976 16728 Watching for file changes with StatReloader
+INFO 2026-08-04 08:39:07,697 autoreload 16680 2216 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:39:08,891 autoreload 3976 16728 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:39:11,117 autoreload 19664 24260 Watching for file changes with StatReloader
+INFO 2026-08-04 08:39:12,053 autoreload 7952 15224 Watching for file changes with StatReloader
+INFO 2026-08-04 08:39:30,612 autoreload 19664 24260 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:39:31,056 autoreload 7952 15224 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:39:33,514 autoreload 1568 15904 Watching for file changes with StatReloader
+INFO 2026-08-04 08:39:34,022 autoreload 22776 16696 Watching for file changes with StatReloader
+INFO 2026-08-04 08:39:36,484 autoreload 22776 16696 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:39:37,209 autoreload 1568 15904 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:39:39,525 autoreload 14256 18308 Watching for file changes with StatReloader
+INFO 2026-08-04 08:39:39,898 autoreload 26272 11380 Watching for file changes with StatReloader
+INFO 2026-08-04 08:40:00,365 autoreload 26272 11380 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:40:00,418 autoreload 14256 18308 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 08:40:03,386 autoreload 14160 4768 Watching for file changes with StatReloader
+INFO 2026-08-04 08:40:03,503 autoreload 26232 18516 Watching for file changes with StatReloader
+WARNING 2026-08-04 08:43:22,470 basehttp 26232 11364 "POST /api/code-review/detect-language/ HTTP/1.1" 400 107
+WARNING 2026-08-04 08:43:58,417 basehttp 26232 18200 "POST /api/code-review/detect-language/ HTTP/1.1" 400 107
+INFO 2026-08-04 08:44:11,895 basehttp 26232 2804 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 08:45:06,179 basehttp 26232 2804 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 08:45:34,011 basehttp 26232 2804 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 08:46:05,156 basehttp 26232 2804 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 08:49:54,833 basehttp 26232 19448 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 08:50:06,232 basehttp 26232 19448 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 08:50:33,061 basehttp 26232 19448 "POST /api/code-review/detect-language/ HTTP/1.1" 200 106
+INFO 2026-08-04 08:54:17,099 autoreload 19716 18300 Watching for file changes with StatReloader
+INFO 2026-08-04 08:55:07,598 basehttp 19716 23684 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 08:57:28,436 basehttp 19716 22076 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 08:57:38,692 basehttp 19716 22076 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 08:57:59,397 basehttp 19716 22076 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:07:30,249 autoreload 13216 25972 Watching for file changes with StatReloader
+INFO 2026-08-04 11:16:04,883 basehttp 13216 17088 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:16:53,029 basehttp 13216 17088 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 11:17:18,085 basehttp 13216 17088 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 11:19:41,805 autoreload 13216 25972 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:19:45,310 autoreload 19448 22228 Watching for file changes with StatReloader
+INFO 2026-08-04 11:20:30,191 basehttp 19448 25884 "GET /api/code-review/llm-status/ HTTP/1.1" 200 140
+INFO 2026-08-04 11:20:51,610 basehttp 19448 25884 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:24:10,959 autoreload 19448 22228 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:24:15,528 autoreload 18916 23796 Watching for file changes with StatReloader
+INFO 2026-08-04 11:25:21,798 autoreload 18916 23796 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:25:24,977 autoreload 8388 7704 Watching for file changes with StatReloader
+INFO 2026-08-04 11:27:16,379 autoreload 8388 7704 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:27:20,102 autoreload 25324 25036 Watching for file changes with StatReloader
+INFO 2026-08-04 11:27:26,516 autoreload 25324 25036 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:27:30,002 autoreload 2216 24176 Watching for file changes with StatReloader
+INFO 2026-08-04 11:27:37,939 autoreload 2216 24176 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:27:41,703 autoreload 18872 15756 Watching for file changes with StatReloader
+INFO 2026-08-04 11:27:47,406 autoreload 18872 15756 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:27:51,165 autoreload 21200 26544 Watching for file changes with StatReloader
+INFO 2026-08-04 11:32:25,528 autoreload 21200 26544 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:32:27,233 autoreload 20576 18364 Watching for file changes with StatReloader
+INFO 2026-08-04 11:32:54,553 autoreload 20576 18364 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:32:55,872 autoreload 23168 20192 Watching for file changes with StatReloader
+INFO 2026-08-04 11:33:13,224 autoreload 23168 20192 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:33:15,672 autoreload 5372 2128 Watching for file changes with StatReloader
+INFO 2026-08-04 11:33:24,291 autoreload 5372 2128 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:33:26,076 autoreload 19424 7256 Watching for file changes with StatReloader
+INFO 2026-08-04 11:33:36,883 autoreload 19424 7256 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:33:38,352 autoreload 23636 10436 Watching for file changes with StatReloader
+INFO 2026-08-04 11:33:58,914 autoreload 23636 10436 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:34:00,486 autoreload 25200 17164 Watching for file changes with StatReloader
+INFO 2026-08-04 11:34:03,378 autoreload 25200 17164 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:34:04,842 autoreload 11608 2912 Watching for file changes with StatReloader
+INFO 2026-08-04 11:34:10,088 autoreload 11608 2912 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:34:11,532 autoreload 25544 17324 Watching for file changes with StatReloader
+INFO 2026-08-04 11:34:16,547 autoreload 25544 17324 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:34:17,968 autoreload 4168 13688 Watching for file changes with StatReloader
+INFO 2026-08-04 11:34:21,965 autoreload 4168 13688 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:34:23,534 autoreload 21832 16860 Watching for file changes with StatReloader
+INFO 2026-08-04 11:34:38,697 autoreload 21832 16860 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:34:40,057 autoreload 22816 1808 Watching for file changes with StatReloader
+INFO 2026-08-04 11:42:15,931 autoreload 22816 1808 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:42:17,565 autoreload 22336 3056 Watching for file changes with StatReloader
+INFO 2026-08-04 11:42:52,629 basehttp 22336 12868 "GET /api/code-review/llm-status/ HTTP/1.1" 200 191
+INFO 2026-08-04 11:43:18,645 basehttp 22336 12868 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:43:41,017 basehttp 22336 12868 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:44:21,514 autoreload 22336 3056 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:44:23,018 autoreload 9424 24248 Watching for file changes with StatReloader
+INFO 2026-08-04 11:44:27,028 autoreload 9424 24248 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:44:28,561 autoreload 22732 23168 Watching for file changes with StatReloader
+INFO 2026-08-04 11:44:35,779 autoreload 22732 23168 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:44:37,368 autoreload 23672 9340 Watching for file changes with StatReloader
+INFO 2026-08-04 11:44:40,180 autoreload 23672 9340 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:44:41,823 autoreload 8020 2408 Watching for file changes with StatReloader
+INFO 2026-08-04 11:44:59,236 autoreload 8020 2408 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:45:00,788 autoreload 7136 4748 Watching for file changes with StatReloader
+INFO 2026-08-04 11:45:33,428 autoreload 7136 4748 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:45:35,204 autoreload 16944 16920 Watching for file changes with StatReloader
+INFO 2026-08-04 11:45:40,081 autoreload 16944 16920 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:45:41,365 autoreload 15412 13664 Watching for file changes with StatReloader
+INFO 2026-08-04 11:45:56,381 autoreload 15412 13664 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:45:57,975 autoreload 11620 15928 Watching for file changes with StatReloader
+INFO 2026-08-04 11:46:22,707 basehttp 11620 6960 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:47:44,795 basehttp 11620 6960 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:48:04,700 autoreload 11620 15928 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:48:06,600 autoreload 18952 16712 Watching for file changes with StatReloader
+INFO 2026-08-04 11:48:09,055 autoreload 18952 16712 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:48:10,430 autoreload 2852 3872 Watching for file changes with StatReloader
+INFO 2026-08-04 11:48:44,398 autoreload 2852 3872 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:48:45,718 autoreload 10988 13856 Watching for file changes with StatReloader
+INFO 2026-08-04 11:49:00,906 autoreload 10988 13856 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:49:02,330 autoreload 4532 17932 Watching for file changes with StatReloader
+INFO 2026-08-04 11:49:31,256 basehttp 4532 12540 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:50:28,963 autoreload 4532 17932 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:50:30,399 autoreload 24776 20704 Watching for file changes with StatReloader
+INFO 2026-08-04 11:50:56,099 basehttp 24776 11268 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:54:10,525 autoreload 24776 20704 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-04 11:57:29,925 autoreload 25300 15792 Watching for file changes with StatReloader
+INFO 2026-08-04 11:57:49,643 basehttp 25300 15400 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 11:59:08,731 autoreload 25300 15792 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 11:59:10,479 autoreload 24528 20708 Watching for file changes with StatReloader
+INFO 2026-08-04 11:59:21,252 basehttp 24528 20784 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:02:12,597 autoreload 12316 9496 Watching for file changes with StatReloader
+INFO 2026-08-04 12:04:19,957 basehttp 12316 23220 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:05:46,440 autoreload 12316 9496 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-04 12:05:48,509 autoreload 18544 12064 Watching for file changes with StatReloader
+INFO 2026-08-04 12:06:04,440 basehttp 18544 7616 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:06:43,876 autoreload 18544 12064 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-04 12:06:45,403 autoreload 6096 13280 Watching for file changes with StatReloader
+INFO 2026-08-04 12:06:52,336 autoreload 6096 13280 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-04 12:06:53,715 autoreload 15260 25124 Watching for file changes with StatReloader
+INFO 2026-08-04 12:07:00,847 autoreload 15260 25124 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-04 12:07:02,323 autoreload 10916 2808 Watching for file changes with StatReloader
+INFO 2026-08-04 12:07:20,091 basehttp 10916 23968 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:08:21,990 autoreload 2776 24360 Watching for file changes with StatReloader
+INFO 2026-08-04 12:42:56,165 autoreload 2776 24360 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:42:58,155 autoreload 19588 1676 Watching for file changes with StatReloader
+INFO 2026-08-04 12:44:00,000 autoreload 23104 1976 Watching for file changes with StatReloader
+INFO 2026-08-04 12:44:09,819 basehttp 23104 17204 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:46:01,817 autoreload 23104 1976 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:46:03,699 autoreload 15412 26344 Watching for file changes with StatReloader
+INFO 2026-08-04 12:46:17,601 autoreload 21040 14028 Watching for file changes with StatReloader
+INFO 2026-08-04 12:46:28,402 basehttp 15412 25988 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:52:51,484 basehttp 15412 22820 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:53:44,101 autoreload 22064 24560 Watching for file changes with StatReloader
+INFO 2026-08-04 12:53:52,439 basehttp 22064 18544 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 12:56:15,194 autoreload 13220 23568 Watching for file changes with StatReloader
+INFO 2026-08-04 12:56:51,287 autoreload 13220 23568 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:56:52,585 autoreload 5580 17332 Watching for file changes with StatReloader
+INFO 2026-08-04 12:58:01,663 autoreload 5580 17332 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:58:03,046 autoreload 9856 4156 Watching for file changes with StatReloader
+INFO 2026-08-04 12:58:07,065 autoreload 9856 4156 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:58:08,528 autoreload 16812 18916 Watching for file changes with StatReloader
+INFO 2026-08-04 12:58:18,088 autoreload 16812 18916 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:58:19,604 autoreload 1812 22980 Watching for file changes with StatReloader
+INFO 2026-08-04 12:58:25,901 autoreload 1812 22980 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:58:27,278 autoreload 6056 9144 Watching for file changes with StatReloader
+INFO 2026-08-04 12:58:32,544 autoreload 6056 9144 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:58:33,967 autoreload 24024 18892 Watching for file changes with StatReloader
+INFO 2026-08-04 12:58:35,839 autoreload 24024 18892 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:58:37,314 autoreload 9268 16740 Watching for file changes with StatReloader
+INFO 2026-08-04 12:59:02,124 autoreload 9268 16740 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:59:03,469 autoreload 5084 22080 Watching for file changes with StatReloader
+INFO 2026-08-04 12:59:06,403 autoreload 5084 22080 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 12:59:07,582 autoreload 25900 13820 Watching for file changes with StatReloader
+INFO 2026-08-04 13:05:29,490 autoreload 25900 13820 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:05:30,843 autoreload 3076 3304 Watching for file changes with StatReloader
+INFO 2026-08-04 13:06:04,372 basehttp 3076 10188 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 13:15:16,728 autoreload 3076 3304 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:15:18,543 autoreload 13280 12136 Watching for file changes with StatReloader
+INFO 2026-08-04 13:15:21,391 autoreload 13280 12136 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:15:22,806 autoreload 15760 24744 Watching for file changes with StatReloader
+INFO 2026-08-04 13:15:29,178 autoreload 15760 24744 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:15:31,548 autoreload 24560 22116 Watching for file changes with StatReloader
+INFO 2026-08-04 13:15:50,922 basehttp 24560 16936 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 13:17:25,623 autoreload 24560 22116 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:17:27,703 autoreload 11044 10048 Watching for file changes with StatReloader
+INFO 2026-08-04 13:17:48,202 basehttp 11044 24332 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 13:22:05,968 autoreload 11044 10048 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:22:09,596 autoreload 1328 12216 Watching for file changes with StatReloader
+INFO 2026-08-04 13:22:17,427 autoreload 1328 12216 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:22:20,753 autoreload 24436 2016 Watching for file changes with StatReloader
+INFO 2026-08-04 13:22:38,646 autoreload 17632 11244 Watching for file changes with StatReloader
+INFO 2026-08-04 13:22:51,791 basehttp 17632 8072 "POST /api/code-review/detect-language/ HTTP/1.1" 200 98
+INFO 2026-08-04 13:51:12,623 autoreload 17632 11244 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 13:51:17,100 autoreload 24004 9424 Watching for file changes with StatReloader
+INFO 2026-08-04 13:51:30,609 basehttp 24004 8472 "POST /api/code-review/detect-language/ HTTP/1.1" 200 124
+INFO 2026-08-04 13:53:01,729 basehttp 24004 8472 "POST /api/code-review/detect-language/ HTTP/1.1" 200 121
+INFO 2026-08-04 13:54:38,181 basehttp 24004 12388 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:54:42,004 basehttp 24004 4476 "POST /api/accounts/login/ HTTP/1.1" 200 789
+INFO 2026-08-04 13:54:42,578 basehttp 24004 12388 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:54:42,585 basehttp 24004 2512 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:54:42,759 basehttp 24004 4476 "GET /api/code-review/stats/ HTTP/1.1" 200 2430
+INFO 2026-08-04 13:54:42,770 basehttp 24004 2512 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:54:42,934 basehttp 24004 20708 "GET /api/code-review/submissions/ HTTP/1.1" 200 52
+INFO 2026-08-04 13:54:42,941 basehttp 24004 4476 "GET /api/code-review/stats/ HTTP/1.1" 200 2430
+INFO 2026-08-04 13:54:43,160 basehttp 24004 4476 "GET /api/code-review/submissions/ HTTP/1.1" 200 52
+INFO 2026-08-04 13:54:49,157 basehttp 24004 2512 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:54:49,158 basehttp 24004 12388 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:54:49,312 basehttp 24004 4476 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 13:54:49,467 basehttp 24004 4476 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 13:55:00,719 basehttp 24004 12388 "OPTIONS /api/code-review/detect-language/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:55:02,497 basehttp 24004 4476 "POST /api/code-review/detect-language/ HTTP/1.1" 200 117
+INFO 2026-08-04 13:55:11,064 basehttp 24004 4476 "POST /api/code-review/submissions/ HTTP/1.1" 201 947
+INFO 2026-08-04 13:55:11,092 basehttp 24004 12388 "OPTIONS /api/code-review/initiate/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:55:16,618 basehttp 24004 4476 "POST /api/code-review/initiate/ HTTP/1.1" 200 9558
+INFO 2026-08-04 13:55:19,998 basehttp 24004 4476 "GET /api/code-review/stats/ HTTP/1.1" 200 2433
+INFO 2026-08-04 13:55:20,214 basehttp 24004 4476 "GET /api/code-review/stats/ HTTP/1.1" 200 2433
+INFO 2026-08-04 13:55:20,238 basehttp 24004 20708 "GET /api/code-review/submissions/ HTTP/1.1" 200 5404
+INFO 2026-08-04 13:55:20,543 basehttp 24004 20708 "GET /api/code-review/submissions/ HTTP/1.1" 200 5404
+INFO 2026-08-04 13:55:23,990 basehttp 24004 12388 "OPTIONS /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:55:23,990 basehttp 24004 2512 "OPTIONS /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 0
+INFO 2026-08-04 13:55:24,304 basehttp 24004 20708 "GET /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 5352
+INFO 2026-08-04 13:55:24,601 basehttp 24004 20708 "GET /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 5352
+INFO 2026-08-04 14:02:45,860 autoreload 24004 9424 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 14:02:49,721 autoreload 11820 15048 Watching for file changes with StatReloader
+INFO 2026-08-04 14:04:49,329 basehttp 11820 20720 "GET /api/code-review/stats/ HTTP/1.1" 200 2433
+INFO 2026-08-04 14:04:49,680 basehttp 11820 20720 "GET /api/code-review/stats/ HTTP/1.1" 200 2433
+INFO 2026-08-04 14:04:49,706 basehttp 11820 4472 "GET /api/code-review/submissions/ HTTP/1.1" 200 5404
+INFO 2026-08-04 14:04:49,907 basehttp 11820 4472 "GET /api/code-review/submissions/ HTTP/1.1" 200 5404
+INFO 2026-08-04 14:04:52,076 basehttp 11820 4472 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 14:04:52,315 basehttp 11820 4472 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 14:05:11,153 basehttp 11820 4472 "POST /api/code-review/detect-language/ HTTP/1.1" 200 121
+INFO 2026-08-04 14:05:20,164 basehttp 11820 4472 "POST /api/code-review/submissions/ HTTP/1.1" 201 1061
+INFO 2026-08-04 14:05:24,360 basehttp 11820 4472 "POST /api/code-review/initiate/ HTTP/1.1" 200 7592
+INFO 2026-08-04 14:05:27,741 basehttp 11820 4472 "GET /api/code-review/stats/ HTTP/1.1" 200 2434
+INFO 2026-08-04 14:05:28,025 basehttp 11820 4472 "GET /api/code-review/stats/ HTTP/1.1" 200 2434
+INFO 2026-08-04 14:05:28,163 basehttp 11820 20720 "GET /api/code-review/submissions/ HTTP/1.1" 200 8959
+INFO 2026-08-04 14:05:28,476 basehttp 11820 4472 "GET /api/code-review/submissions/ HTTP/1.1" 200 8959
+INFO 2026-08-04 14:05:31,459 basehttp 11820 19288 "OPTIONS /api/code-review/submissions/9529be1e-c8c4-47c0-81d2-1670d384ee4f/ HTTP/1.1" 200 0
+INFO 2026-08-04 14:05:31,469 basehttp 11820 1960 "OPTIONS /api/code-review/submissions/9529be1e-c8c4-47c0-81d2-1670d384ee4f/ HTTP/1.1" 200 0
+INFO 2026-08-04 14:05:31,612 basehttp 11820 4472 "GET /api/code-review/submissions/9529be1e-c8c4-47c0-81d2-1670d384ee4f/ HTTP/1.1" 200 3554
+INFO 2026-08-04 14:05:31,769 basehttp 11820 4472 "GET /api/code-review/submissions/9529be1e-c8c4-47c0-81d2-1670d384ee4f/ HTTP/1.1" 200 3554
+INFO 2026-08-04 14:34:09,198 autoreload 11820 15048 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 14:34:16,607 autoreload 7304 22972 Watching for file changes with StatReloader
+WARNING 2026-08-04 14:39:28,428 basehttp 7304 2588 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+WARNING 2026-08-04 14:39:28,438 basehttp 7304 2588 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+INFO 2026-08-04 14:39:28,455 basehttp 7304 3896 "OPTIONS /api/accounts/refresh/ HTTP/1.1" 200 0
+INFO 2026-08-04 14:39:28,475 basehttp 7304 11884 "OPTIONS /api/accounts/refresh/ HTTP/1.1" 200 0
+INFO 2026-08-04 14:39:28,477 basehttp 7304 3896 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-04 14:39:28,505 basehttp 7304 11884 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-04 14:39:28,923 basehttp 7304 2588 "GET /api/code-review/stats/ HTTP/1.1" 200 2434
+INFO 2026-08-04 14:39:29,301 basehttp 7304 2588 "GET /api/code-review/stats/ HTTP/1.1" 200 2434
+INFO 2026-08-04 14:39:29,349 basehttp 7304 15712 "GET /api/code-review/submissions/ HTTP/1.1" 200 8959
+INFO 2026-08-04 14:39:29,563 basehttp 7304 2588 "GET /api/code-review/submissions/ HTTP/1.1" 200 8959
+INFO 2026-08-04 14:39:31,898 basehttp 7304 2588 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 14:39:32,095 basehttp 7304 2588 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 14:39:50,506 basehttp 7304 2588 "POST /api/code-review/detect-language/ HTTP/1.1" 200 94
+INFO 2026-08-04 14:39:59,021 basehttp 7304 2588 "POST /api/code-review/submissions/ HTTP/1.1" 201 3736
+INFO 2026-08-04 14:40:05,751 basehttp 7304 2588 "POST /api/code-review/initiate/ HTTP/1.1" 200 10800
+INFO 2026-08-04 14:40:09,554 basehttp 7304 2588 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-04 14:40:09,746 basehttp 7304 2588 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-04 14:40:09,769 basehttp 7304 15712 "GET /api/code-review/submissions/ HTTP/1.1" 200 16853
+INFO 2026-08-04 14:40:09,988 basehttp 7304 15712 "GET /api/code-review/submissions/ HTTP/1.1" 200 16853
+INFO 2026-08-04 14:45:11,185 basehttp 7304 13172 "OPTIONS /api/code-review/submissions/4b94f328-52b4-494e-8dac-38fa62fe1a1c/ HTTP/1.1" 200 0
+INFO 2026-08-04 14:45:11,196 basehttp 7304 10408 "OPTIONS /api/code-review/submissions/4b94f328-52b4-494e-8dac-38fa62fe1a1c/ HTTP/1.1" 200 0
+INFO 2026-08-04 14:45:12,134 basehttp 7304 14164 "GET /api/code-review/submissions/4b94f328-52b4-494e-8dac-38fa62fe1a1c/ HTTP/1.1" 200 7893
+INFO 2026-08-04 14:45:12,360 basehttp 7304 14164 "GET /api/code-review/submissions/4b94f328-52b4-494e-8dac-38fa62fe1a1c/ HTTP/1.1" 200 7893
+INFO 2026-08-04 15:03:24,780 autoreload 7304 22972 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 15:03:31,174 autoreload 13032 11856 Watching for file changes with StatReloader
+WARNING 2026-08-04 15:05:42,385 basehttp 13032 16904 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+WARNING 2026-08-04 15:05:42,392 basehttp 13032 16904 "GET /api/code-review/stats/ HTTP/1.1" 401 183
+INFO 2026-08-04 15:05:42,416 basehttp 13032 10916 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-04 15:05:42,417 basehttp 13032 19316 "POST /api/accounts/refresh/ HTTP/1.1" 200 309
+INFO 2026-08-04 15:05:42,728 basehttp 13032 16904 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-04 15:05:43,179 basehttp 13032 16904 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-04 15:05:43,255 basehttp 13032 5192 "GET /api/code-review/submissions/ HTTP/1.1" 200 16853
+INFO 2026-08-04 15:05:43,566 basehttp 13032 16904 "GET /api/code-review/submissions/ HTTP/1.1" 200 16853
+INFO 2026-08-04 15:05:45,688 basehttp 13032 16904 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 15:05:46,039 basehttp 13032 16904 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-04 15:06:08,734 basehttp 13032 16904 "POST /api/code-review/detect-language/ HTTP/1.1" 200 104
+INFO 2026-08-04 15:06:14,140 basehttp 13032 16904 "POST /api/code-review/submissions/ HTTP/1.1" 201 2374
+INFO 2026-08-04 15:06:21,267 basehttp 13032 16904 "POST /api/code-review/initiate/ HTTP/1.1" 200 11193
+INFO 2026-08-04 15:06:24,486 basehttp 13032 16904 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-04 15:06:24,712 basehttp 13032 16904 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-04 15:06:24,732 basehttp 13032 5192 "GET /api/code-review/submissions/ HTTP/1.1" 200 23526
+INFO 2026-08-04 15:06:25,020 basehttp 13032 5192 "GET /api/code-review/submissions/ HTTP/1.1" 200 23526
+INFO 2026-08-04 15:06:27,172 basehttp 13032 10916 "OPTIONS /api/code-review/submissions/bcba6116-b6b1-4329-93cc-d849f12f3fe4/ HTTP/1.1" 200 0
+INFO 2026-08-04 15:06:27,174 basehttp 13032 19316 "OPTIONS /api/code-review/submissions/bcba6116-b6b1-4329-93cc-d849f12f3fe4/ HTTP/1.1" 200 0
+INFO 2026-08-04 15:06:27,519 basehttp 13032 5192 "GET /api/code-review/submissions/bcba6116-b6b1-4329-93cc-d849f12f3fe4/ HTTP/1.1" 200 6672
+INFO 2026-08-04 15:06:27,763 basehttp 13032 5192 "GET /api/code-review/submissions/bcba6116-b6b1-4329-93cc-d849f12f3fe4/ HTTP/1.1" 200 6672
+INFO 2026-08-04 15:16:48,967 autoreload 13032 11856 C:\ai-code-review-platform\backend\code_review\views.py changed, reloading.
+INFO 2026-08-04 15:16:52,784 autoreload 14596 12160 Watching for file changes with StatReloader
+INFO 2026-08-05 10:11:14,247 autoreload 12304 1312 Watching for file changes with StatReloader
+INFO 2026-08-05 10:11:58,762 basehttp 12304 12620 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:03,910 basehttp 12304 5868 "POST /api/accounts/login/ HTTP/1.1" 200 789
+INFO 2026-08-05 10:12:04,505 basehttp 12304 12620 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:04,525 basehttp 12304 18568 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:04,736 basehttp 12304 5868 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-05 10:12:04,750 basehttp 12304 18568 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:04,989 basehttp 12304 5868 "GET /api/code-review/stats/ HTTP/1.1" 200 2435
+INFO 2026-08-05 10:12:05,044 basehttp 12304 12324 "GET /api/code-review/submissions/ HTTP/1.1" 200 23526
+INFO 2026-08-05 10:12:05,250 basehttp 12304 12324 "GET /api/code-review/submissions/ HTTP/1.1" 200 23526
+INFO 2026-08-05 10:12:26,061 basehttp 12304 18568 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:26,062 basehttp 12304 12620 "OPTIONS /api/code-review/languages/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:26,248 basehttp 12304 12324 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-05 10:12:26,400 basehttp 12304 12324 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-05 10:12:38,822 basehttp 12304 12620 "OPTIONS /api/code-review/detect-language/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:12:56,014 basehttp 12304 12324 "POST /api/code-review/detect-language/ HTTP/1.1" 200 92
+INFO 2026-08-05 10:13:05,855 basehttp 12304 12324 "POST /api/code-review/submissions/ HTTP/1.1" 201 3552
+INFO 2026-08-05 10:13:05,869 basehttp 12304 12620 "OPTIONS /api/code-review/initiate/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:13:12,168 basehttp 12304 12324 "POST /api/code-review/initiate/ HTTP/1.1" 200 10301
+INFO 2026-08-05 10:13:15,427 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:15,653 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:15,689 basehttp 12304 5868 "GET /api/code-review/submissions/ HTTP/1.1" 200 30924
+INFO 2026-08-05 10:13:15,922 basehttp 12304 5868 "GET /api/code-review/submissions/ HTTP/1.1" 200 30924
+INFO 2026-08-05 10:13:18,995 basehttp 12304 18568 "OPTIONS /api/code-review/submissions/866a24e8-befc-4f6c-98f3-e1748487ea19/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:13:18,996 basehttp 12304 12620 "OPTIONS /api/code-review/submissions/866a24e8-befc-4f6c-98f3-e1748487ea19/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:13:19,188 basehttp 12304 5868 "GET /api/code-review/submissions/866a24e8-befc-4f6c-98f3-e1748487ea19/ HTTP/1.1" 200 7397
+INFO 2026-08-05 10:13:19,365 basehttp 12304 12324 "GET /api/code-review/submissions/866a24e8-befc-4f6c-98f3-e1748487ea19/ HTTP/1.1" 200 7397
+INFO 2026-08-05 10:13:47,075 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:47,291 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:47,326 basehttp 12304 5868 "GET /api/code-review/submissions/ HTTP/1.1" 200 30924
+INFO 2026-08-05 10:13:47,550 basehttp 12304 5868 "GET /api/code-review/submissions/ HTTP/1.1" 200 30924
+INFO 2026-08-05 10:13:57,023 basehttp 12304 12620 "OPTIONS /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:13:57,025 basehttp 12304 18568 "OPTIONS /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:13:57,049 basehttp 12304 15376 "OPTIONS /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 0
+INFO 2026-08-05 10:13:57,282 basehttp 12304 12324 "GET /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 200 5352
+INFO 2026-08-05 10:13:57,332 basehttp 12304 5868 "DELETE /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 204 0
+WARNING 2026-08-05 10:13:57,444 basehttp 12304 12324 "GET /api/code-review/submissions/73594561-3dff-4643-9611-6a69769d2017/ HTTP/1.1" 404 55
+INFO 2026-08-05 10:13:57,718 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:57,907 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:58,143 basehttp 12304 12324 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
+INFO 2026-08-05 10:13:59,196 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:59,434 basehttp 12304 12324 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:13:59,460 basehttp 12304 5868 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
+INFO 2026-08-05 10:13:59,700 basehttp 12304 5868 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
+INFO 2026-08-05 10:14:15,374 basehttp 12304 5868 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-05 10:14:15,554 basehttp 12304 5868 "GET /api/code-review/languages/ HTTP/1.1" 200 1587
+INFO 2026-08-05 10:14:17,624 basehttp 12304 5868 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:14:17,862 basehttp 12304 5868 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-05 10:14:17,885 basehttp 12304 12324 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
+INFO 2026-08-05 10:14:18,115 basehttp 12304 12324 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571

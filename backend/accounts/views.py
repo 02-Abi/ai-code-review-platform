@@ -1,3 +1,4 @@
+# accounts/views.py
 from rest_framework import status, generics, permissions
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -17,6 +18,43 @@ import random
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+# ============================================================
+# TOKEN REFRESH VIEW
+# ============================================================
+
+class TokenRefreshView(APIView):
+    """
+    Refresh access token using refresh token
+    """
+    permission_classes = [permissions.AllowAny]
+    
+    def post(self, request):
+        refresh_token = request.data.get('refresh')
+        if not refresh_token:
+            return Response({
+                'status': 'error',
+                'message': 'Refresh token is required'
+            }, status=status.HTTP_400_BAD_REQUEST)
+        
+        try:
+            refresh = RefreshToken(refresh_token)
+            return Response({
+                'status': 'success',
+                'access': str(refresh.access_token)
+            }, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({
+                'status': 'error',
+                'message': 'Invalid or expired refresh token',
+                'detail': str(e)
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+
+# ============================================================
+# USER REGISTRATION VIEW
+# ============================================================
 
 class UserRegistrationView(APIView):
     """
@@ -42,7 +80,6 @@ class UserRegistrationView(APIView):
                 }
             }, status=status.HTTP_201_CREATED)
         
-        # Log errors for debugging
         print("Registration errors:", serializer.errors)
         
         return Response({
@@ -51,6 +88,13 @@ class UserRegistrationView(APIView):
             'errors': serializer.errors
         }, status=status.HTTP_400_BAD_REQUEST)
 
+
+# ============================================================
+# USER LOGIN VIEW
+# ============================================================
+
+# accounts/views.py - Updated UserLoginView with more debugging
+
 class UserLoginView(APIView):
     """
     User login endpoint
@@ -58,32 +102,98 @@ class UserLoginView(APIView):
     permission_classes = [permissions.AllowAny]
     
     def post(self, request):
-        serializer = UserLoginSerializer(data=request.data)
-        if serializer.is_valid():
-            user = serializer.validated_data['user']
-            
-            # Update last login
-            user.last_login = timezone.now()
-            user.save(update_fields=['last_login'])
-            
-            # Generate tokens
-            refresh = RefreshToken.for_user(user)
-            
-            return Response({
-                'status': 'success',
-                'message': 'Login successful.',
-                'user': UserSerializer(user).data,
-                'tokens': {
-                    'refresh': str(refresh),
-                    'access': str(refresh.access_token),
-                }
-            }, status=status.HTTP_200_OK)
+        print("=" * 60)
+        print("🔐 LOGIN ATTEMPT")
+        print(f"📝 Request method: {request.method}")
+        print(f"📝 Request path: {request.path}")
+        print(f"📝 Request data: {request.data}")
+        print(f"📝 Request headers: {dict(request.headers)}")
+        print("=" * 60)
         
-        return Response({
-            'status': 'error',
-            'message': 'Login failed.',
-            'errors': serializer.errors
-        }, status=status.HTTP_400_BAD_REQUEST)
+        username = request.data.get('username')
+        password = request.data.get('password')
+        
+        if not username or not password:
+            print("❌ Missing username or password")
+            return Response({
+                'status': 'error',
+                'message': 'Username and password are required.',
+                'errors': {'detail': 'Both username and password are required.'}
+            }, status=status.HTTP_400_BAD_REQUEST)
+        
+        print(f"🔍 Checking user: {username}")
+        
+        # Try to find user
+        try:
+            user_obj = User.objects.get(username=username)
+            print(f"✅ User found: {user_obj.username}")
+            print(f"✅ User active: {user_obj.is_active}")
+            print(f"✅ Password check: {user_obj.check_password(password)}")
+        except User.DoesNotExist:
+            print(f"❌ User not found: {username}")
+            return Response({
+                'status': 'error',
+                'message': 'Invalid username or password.',
+                'errors': {'detail': 'Invalid credentials.'}
+            }, status=status.HTTP_401_UNAUTHORIZED)
+        
+        # Try to authenticate
+        user = authenticate(username=username, password=password)
+        print(f"🔑 Authenticate result: {user.username if user else 'None'}")
+        
+        if not user:
+            # Try manual check
+            if user_obj.check_password(password):
+                user = user_obj
+                print(f"✅ Manual authentication successful for: {user_obj.username}")
+            else:
+                print(f"❌ Authentication failed for: {username}")
+                return Response({
+                    'status': 'error',
+                    'message': 'Invalid username or password.',
+                    'errors': {'detail': 'Invalid credentials.'}
+                }, status=status.HTTP_401_UNAUTHORIZED)
+        
+        if not user.is_active:
+            print(f"❌ User is inactive: {username}")
+            return Response({
+                'status': 'error',
+                'message': 'This account is deactivated.',
+                'errors': {'detail': 'Account is inactive.'}
+            }, status=status.HTTP_401_UNAUTHORIZED)
+        
+        print(f"✅ Login successful for: {user.username}")
+        
+        # Update last login
+        user.last_login = timezone.now()
+        user.save(update_fields=['last_login'])
+        
+        # Generate tokens
+        refresh = RefreshToken.for_user(user)
+        
+        response_data = {
+            'status': 'success',
+            'message': 'Login successful.',
+            'user': {
+                'id': str(user.id),
+                'username': user.username,
+                'email': user.email,
+                'first_name': user.first_name,
+                'last_name': user.last_name,
+            },
+            'tokens': {
+                'refresh': str(refresh),
+                'access': str(refresh.access_token),
+            }
+        }
+        
+        print(f"✅ Response: {response_data.keys()}")
+        print("=" * 60)
+        
+        return Response(response_data, status=status.HTTP_200_OK)
+# ============================================================
+# USER LOGOUT VIEW
+# ============================================================
 
 class UserLogoutView(APIView):
     """
@@ -109,32 +219,74 @@ class UserLogoutView(APIView):
                 'detail': str(e)
             }, status=status.HTTP_400_BAD_REQUEST)
 
-class UserProfileView(generics.RetrieveUpdateAPIView):
+
+# ============================================================
+# USER PROFILE VIEW
+# ============================================================
+
+class UserProfileView(APIView):
     """
     Get and update user profile
     """
-    serializer_class = UserSerializer
     permission_classes = [permissions.IsAuthenticated]
     
-    def get_object(self):
-        return self.request.user
+    def get(self, request):
+        user = request.user
+        return Response({
+            'status': 'success',
+            'user': {
+                'id': str(user.id),
+                'username': user.username,
+                'email': user.email,
+                'first_name': user.first_name,
+                'last_name': user.last_name,
+                'user_type': getattr(user, 'user_type', 'student'),
+                'college_name': getattr(user, 'college_name', ''),
+                'year_of_study': getattr(user, 'year_of_study', None),
+                'branch': getattr(user, 'branch', ''),
+                'bio': getattr(user, 'bio', ''),
+                'profile_picture': user.profile_picture.url if hasattr(user, 'profile_picture') and user.profile_picture else None,
+                'github_username': getattr(user, 'github_username', ''),
+                'total_code_reviews': getattr(user, 'total_code_reviews', 0),
+                'total_bugs_found': getattr(user, 'total_bugs_found', 0),
+                'average_quality_score': float(getattr(user, 'average_quality_score', 0.0)),
+            }
+        }, status=status.HTTP_200_OK)
     
-    def update(self, request, *args, **kwargs):
-        user = self.get_object()
-        serializer = self.get_serializer(user, data=request.data, partial=True)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({
-                'status': 'success',
-                'message': 'Profile updated successfully.',
-                'user': serializer.data
-            }, status=status.HTTP_200_OK)
+    def patch(self, request):
+        user = request.user
+        allowed_fields = ['first_name', 'last_name', 'bio', 'college_name', 'branch', 'year_of_study']
+        for field in allowed_fields:
+            if field in request.data:
+                setattr(user, field, request.data[field])
+        user.save()
         
         return Response({
-            'status': 'error',
-            'message': 'Profile update failed.',
-            'errors': serializer.errors
-        }, status=status.HTTP_400_BAD_REQUEST)
+            'status': 'success',
+            'message': 'Profile updated successfully.',
+            'user': {
+                'id': str(user.id),
+                'username': user.username,
+                'email': user.email,
+                'first_name': user.first_name,
+                'last_name': user.last_name,
+                'user_type': getattr(user, 'user_type', 'student'),
+                'college_name': getattr(user, 'college_name', ''),
+                'year_of_study': getattr(user, 'year_of_study', None),
+                'branch': getattr(user, 'branch', ''),
+                'bio': getattr(user, 'bio', ''),
+                'profile_picture': user.profile_picture.url if hasattr(user, 'profile_picture') and user.profile_picture else None,
+                'github_username': getattr(user, 'github_username', ''),
+                'total_code_reviews': getattr(user, 'total_code_reviews', 0),
+                'total_bugs_found': getattr(user, 'total_bugs_found', 0),
+                'average_quality_score': float(getattr(user, 'average_quality_score', 0.0)),
+            }
+        }, status=status.HTTP_200_OK)
+
+
+# ============================================================
+# PASSWORD CHANGE VIEW
+# ============================================================
 
 class PasswordChangeView(APIView):
     """
@@ -171,6 +323,11 @@ class PasswordChangeView(APIView):
             'errors': serializer.errors
         }, status=status.HTTP_400_BAD_REQUEST)
 
+
+# ============================================================
+# PASSWORD RESET REQUEST VIEW
+# ============================================================
+
 class PasswordResetRequestView(APIView):
     """
     Request password reset OTP
@@ -190,13 +347,13 @@ class PasswordResetRequestView(APIView):
             PasswordResetOTP.objects.filter(user=user, is_used=False).delete()
             
             # Create new OTP
-            otp_obj = PasswordResetOTP.objects.create(
+            PasswordResetOTP.objects.create(
                 user=user,
                 otp=otp,
                 expires_at=timezone.now() + timezone.timedelta(minutes=10)
             )
             
-            # Send email (in production, use proper email templates)
+            # Send email
             try:
                 send_mail(
                     subject='Password Reset OTP',
@@ -224,6 +381,11 @@ class PasswordResetRequestView(APIView):
             'errors': serializer.errors
         }, status=status.HTTP_400_BAD_REQUEST)
 
+
+# ============================================================
+# PASSWORD RESET VERIFY VIEW
+# ============================================================
+
 class PasswordResetVerifyView(APIView):
     """
     Verify password reset OTP
@@ -244,6 +406,11 @@ class PasswordResetVerifyView(APIView):
             'message': 'OTP verification failed.',
             'errors': serializer.errors
         }, status=status.HTTP_400_BAD_REQUEST)
+
+
+# ============================================================
+# PASSWORD RESET CONFIRM VIEW
+# ============================================================
 
 class PasswordResetConfirmView(APIView):
     """
@@ -276,6 +443,11 @@ class PasswordResetConfirmView(APIView):
             'errors': serializer.errors
         }, status=status.HTTP_400_BAD_REQUEST)
 
+
+# ============================================================
+# USER STATISTICS VIEW
+# ============================================================
+
 class UserStatisticsView(APIView):
     """
     Get user statistics
@@ -287,13 +459,43 @@ class UserStatisticsView(APIView):
         
         return Response({
             'username': user.username,
-            'total_code_reviews': user.total_code_reviews,
-            'total_bugs_found': user.total_bugs_found,
-            'average_quality_score': round(user.average_quality_score, 2),
-            'user_type': user.user_type,
-            'is_verified': user.is_verified,
+            'total_code_reviews': getattr(user, 'total_code_reviews', 0),
+            'total_bugs_found': getattr(user, 'total_bugs_found', 0),
+            'average_quality_score': round(getattr(user, 'average_quality_score', 0), 2),
+            'user_type': getattr(user, 'user_type', 'student'),
+            'is_verified': getattr(user, 'is_verified', False),
             'member_since': user.date_joined.strftime('%B %d, %Y')
         }, status=status.HTTP_200_OK)
+
+
+# ============================================================
+# AUTH STATUS VIEW
+# ============================================================
+
+class AuthStatusView(APIView):
+    """
+    Check if user is authenticated
+    """
+    permission_classes = [permissions.IsAuthenticated]
+    
+    def get(self, request):
+        user = request.user
+        return Response({
+            'status': 'success',
+            'is_authenticated': True,
+            'user': {
+                'id': str(user.id),
+                'username': user.username,
+                'email': user.email,
+                'first_name': user.first_name,
+                'last_name': user.last_name,
+            }
+        }, status=status.HTTP_200_OK)
+
+
+# ============================================================
+# ALL USERS VIEW (Admin)
+# ============================================================
 
 class AllUsersView(generics.ListAPIView):
     """
@@ -303,4 +505,4 @@ class AllUsersView(generics.ListAPIView):
     permission_classes = [permissions.IsAdminUser]
     
     def get_queryset(self):
-        return User.objects.all().order_by('-created_at')
+        return User.objects.all().order_by('-date_joined')
