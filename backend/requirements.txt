@@ -53,3 +53,5 @@ whitenoise==6.8.2
 
 # Documentation
 drf-yasg==1.21.7
+
+dj-database-url==2.2.0  # Add this
