@@ -1,7 +1,7 @@
 // src/api/index.js
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://ai-code-review-platform-3xhi.onrender.com/api';
 
 // Create axios instance
 const api = axios.create({
@@ -54,7 +54,8 @@ api.interceptors.response.use(
           console.log('🔄 Refresh Token:', refreshToken ? 'Exists' : 'Not found');
           
           if (refreshToken) {
-            const response = await axios.post(`${API_URL}/accounts/refresh/`, {
+            // ✅ FIX: Use correct refresh endpoint
+            const response = await axios.post(`${API_URL}/token/refresh/`, {
               refresh: refreshToken,
             });
             
@@ -85,12 +86,13 @@ api.interceptors.response.use(
 );
 
 // ============================================================
-// AUTH API - EXPORTED
+// AUTH API - EXPORTED ✅ FIXED
 // ============================================================
 export const authAPI = {
+  // ✅ FIX: Use JWT endpoints
+  login: (data) => api.post('/token/', data),  // Changed from /accounts/login/
   register: (data) => api.post('/accounts/register/', data),
-  login: (data) => api.post('/accounts/login/', data),
-  logout: (refreshToken) => api.post('/accounts/logout/', { refresh: refreshToken }),
+  logout: (refreshToken) => api.post('/token/blacklist/', { refresh: refreshToken }),
   getProfile: () => api.get('/accounts/profile/'),
   updateProfile: (data) => api.put('/accounts/profile/update/', data),
   changePassword: (data) => api.post('/accounts/password/change/', data),
@@ -115,8 +117,8 @@ export const codeReviewAPI = {
   updateSubmission: (id, data) => api.put(`/code-review/submissions/${id}/`, data),
   deleteSubmission: (id) => api.delete(`/code-review/submissions/${id}/`),
   updateStatus: (id, status) => api.patch(`/code-review/submissions/${id}/status/`, { status }),
-  getReviewHistory: () => api.get('/code-review/history/'),
-  getReviewDetail: (id) => api.get(`/code-review/history/${id}/`),
+  getReviewHistory: () => api.get('/code-review/reviews/'),
+  getReviewDetail: (id) => api.get(`/code-review/reviews/${id}/`),
   getComments: (reviewId) => api.get(`/code-review/reviews/${reviewId}/comments/`),
   addComment: (reviewId, data) => api.post(`/code-review/reviews/${reviewId}/comments/`, data),
   getSnippets: () => api.get('/code-review/snippets/'),
