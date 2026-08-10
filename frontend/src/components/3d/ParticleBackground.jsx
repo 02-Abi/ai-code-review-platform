@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
-import Particles from 'react-particles';
-import { loadSlim } from 'tsparticles-slim';
+import Particles from '@tsparticles/react';  // ✅ NEW import
+import { loadSlim } from '@tsparticles/slim'; // ✅ NEW import
 
 const ParticleBackground = () => {
   const particlesInit = useCallback(async (engine) => {
