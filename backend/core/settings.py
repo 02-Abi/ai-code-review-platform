@@ -212,8 +212,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "https://ai-code-review-platform-1-s2dw.onrender.com",  # ✅ ADD YOUR FRONTEND URL
+    "https://ai-code-review-platform-frontend.onrender.com",  # ✅ ADD THIS TOO
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True  # ✅ ADD THIS FOR TESTING
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_METHODS = [
