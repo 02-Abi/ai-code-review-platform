@@ -1,7 +1,8 @@
 // src/api/index.js
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://ai-code-review-platform-3xhi.onrender.com/api';
+// src/api/index.js
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
 
 // Create axios instance
 const api = axios.create({
