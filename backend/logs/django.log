@@ -6768,3 +6768,20 @@ INFO 2026-08-05 10:14:17,885 basehttp 12304 12324 "GET /api/code-review/submissi
 INFO 2026-08-05 10:14:18,115 basehttp 12304 12324 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
 INFO 2026-08-07 14:08:25,789 autoreload 26344 24292 Watching for file changes with StatReloader
 INFO 2026-08-10 11:37:46,300 autoreload 11540 14052 Watching for file changes with StatReloader
+INFO 2026-08-10 13:06:07,098 basehttp 11540 20420 "OPTIONS /api/accounts/login/ HTTP/1.1" 200 0
+INFO 2026-08-10 13:06:13,651 basehttp 11540 26616 "POST /api/accounts/login/ HTTP/1.1" 200 789
+INFO 2026-08-10 13:06:14,314 basehttp 11540 20420 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-10 13:06:14,343 basehttp 11540 22368 "OPTIONS /api/code-review/stats/ HTTP/1.1" 200 0
+INFO 2026-08-10 13:06:14,647 basehttp 11540 26616 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-10 13:06:14,659 basehttp 11540 22368 "OPTIONS /api/code-review/submissions/ HTTP/1.1" 200 0
+INFO 2026-08-10 13:06:14,914 basehttp 11540 26616 "GET /api/code-review/stats/ HTTP/1.1" 200 2436
+INFO 2026-08-10 13:06:15,168 basehttp 11540 1364 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
+INFO 2026-08-10 13:06:15,412 basehttp 11540 26616 "GET /api/code-review/submissions/ HTTP/1.1" 200 25571
+INFO 2026-08-10 13:06:37,670 autoreload 11540 14052 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-10 13:06:43,230 autoreload 7544 7708 Watching for file changes with StatReloader
+INFO 2026-08-10 13:06:49,721 autoreload 7544 7708 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-10 13:06:53,306 autoreload 24732 25892 Watching for file changes with StatReloader
+INFO 2026-08-10 14:02:40,142 autoreload 24732 25892 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-10 14:02:44,745 autoreload 15992 13952 Watching for file changes with StatReloader
+INFO 2026-08-10 14:02:50,430 autoreload 15992 13952 C:\ai-code-review-platform\backend\core\settings.py changed, reloading.
+INFO 2026-08-10 14:02:53,719 autoreload 7984 4128 Watching for file changes with StatReloader

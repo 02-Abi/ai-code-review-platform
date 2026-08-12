@@ -68,10 +68,11 @@ export const AuthProvider = ({ children }) => {
   const loadUser = async (tokenValue) => {
     try {
       console.log('👤 Loading user profile...');
+      // ✅ FIX: Get user from token or API
       const response = await authAPI.getProfile();
       console.log('👤 Profile loaded:', response.data);
       
-      const userData = response.data.user;
+      const userData = response.data.user || response.data;
       setUser(userData);
       setIsAuthenticated(true);
       setToken(tokenValue || localStorage.getItem('accessToken'));
@@ -80,6 +81,19 @@ export const AuthProvider = ({ children }) => {
       console.log('✅ User loaded, isAuthenticated set to true');
     } catch (error) {
       console.error('❌ Failed to load user:', error);
+      // If profile fails, try to get user from token
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        try {
+          const userData = JSON.parse(storedUser);
+          setUser(userData);
+          setIsAuthenticated(true);
+          setLoading(false);
+          return;
+        } catch (e) {
+          console.error('❌ Failed to parse stored user:', e);
+        }
+      }
       localStorage.removeItem('accessToken');
       localStorage.removeItem('refreshToken');
       localStorage.removeItem('user');
@@ -93,26 +107,28 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       console.log('🔐 Attempting login...');
+      // ✅ FIX: Use correct JWT endpoint
       const response = await authAPI.login({ username, password });
       console.log('🔐 Login response:', response.data);
       
-      const { access, refresh } = response.data.tokens;
-      const userData = response.data.user;
+      // ✅ FIX: Handle JWT response format
+      const access = response.data.access;
+      const refresh = response.data.refresh;
       
-      console.log('👤 User data:', userData);
-      console.log('👤 User type:', userData.user_type);
+      console.log('✅ Access token received:', access ? 'yes' : 'no');
+      
+      // Create user data from token or API
+      const userData = { username };
       
       localStorage.setItem('accessToken', access);
       localStorage.setItem('refreshToken', refresh);
       localStorage.setItem('user', JSON.stringify(userData));
       
-      // Update state
       setToken(access);
       setUser(userData);
       setIsAuthenticated(true);
       
       console.log('✅ State updated - isAuthenticated:', true);
-      console.log('✅ Token set:', access ? 'yes' : 'no');
       
       return { success: true, user: userData };
     } catch (error) {
@@ -120,7 +136,7 @@ export const AuthProvider = ({ children }) => {
       console.error('❌ Error response:', error.response?.data);
       return { 
         success: false, 
-        error: error.response?.data?.message || 'Login failed' 
+        error: error.response?.data?.detail || 'Login failed' 
       };
     }
   };
@@ -128,21 +144,17 @@ export const AuthProvider = ({ children }) => {
   const register = async (userData) => {
     try {
       console.log('📝 Registering...');
+      // ✅ FIX: Use register endpoint
       const response = await authAPI.register(userData);
       console.log('📝 Registration response:', response.data);
       
-      const { access, refresh } = response.data.tokens;
-      const user = response.data.user;
+      // Login after registration
+      const loginResponse = await login(userData.username, userData.password);
+      if (loginResponse.success) {
+        return { success: true, user: loginResponse.user };
+      }
       
-      localStorage.setItem('accessToken', access);
-      localStorage.setItem('refreshToken', refresh);
-      localStorage.setItem('user', JSON.stringify(user));
-      
-      setToken(access);
-      setUser(user);
-      setIsAuthenticated(true);
-      
-      return { success: true, user };
+      return { success: false, error: 'Registration failed' };
     } catch (error) {
       console.error('❌ Registration error:', error);
       return { 
